@@ -9,7 +9,7 @@
   },
   "scripts": {
     "build": "turbo run build",
-    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "typecheck": "tsc -p tsconfig.json --noEmit && turbo run typecheck",
     "lint": "eslint .",
     "test": "vitest run",
     "architecture:test": "vitest run tests/architecture",

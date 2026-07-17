@@ -37,10 +37,24 @@ function collectTsFiles(dir: string, acc: string[]): void {
     const full = join(dir, entry);
     if (statSync(full).isDirectory()) {
       collectTsFiles(full, acc);
-    } else if (entry.endsWith('.ts') && !entry.endsWith('.d.ts')) {
+    } else if (isProductionSource(entry)) {
       acc.push(full);
     }
   }
+}
+
+/**
+ * Only shipped production source is subject to the architecture rules. Type
+ * declaration files and test files (`*.test.ts` / `*.spec.ts`) are excluded:
+ * tests legitimately import test frameworks that domain code may not.
+ */
+function isProductionSource(entry: string): boolean {
+  return (
+    entry.endsWith('.ts') &&
+    !entry.endsWith('.d.ts') &&
+    !entry.endsWith('.test.ts') &&
+    !entry.endsWith('.spec.ts')
+  );
 }
 
 function extractImports(source: string): string[] {
