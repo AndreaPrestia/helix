@@ -21,7 +21,7 @@ changes:
     dependsOn: ["0004-specification-aggregate"]
   - id: 0006-event-runtime
     title: "In-memory event runtime"
-    status: proposed
+    status: completed
     dependsOn: ["0005-task-aggregate"]
   - id: 0007-event-persistence
     title: "Durable event persistence"
