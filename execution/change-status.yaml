@@ -93,7 +93,7 @@ changes:
     dependsOn: ["0022-cli-foundation"]
   - id: 0024-query-command
     title: "Repository query command"
-    status: proposed
+    status: completed
     dependsOn: ["0023-cli-init-validate-doctor"]
   - id: 0025-local-daemon
     title: "Local daemon"

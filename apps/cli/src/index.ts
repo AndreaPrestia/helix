@@ -54,3 +54,15 @@ export {
   type DoctorStatus,
   type PluginApi,
 } from './commands/doctor.js';
+export {
+  createQueryCommand,
+  parseLimit,
+  parseProjection,
+  projectNode,
+  DEFAULT_QUERY_LIMIT,
+  MAX_QUERY_LIMIT,
+  PROJECTION_FIELDS,
+  type GraphSource,
+  type QueryKind,
+  type ProjectionField,
+} from './commands/query.js';

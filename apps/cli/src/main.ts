@@ -2,6 +2,7 @@ import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { isErr, none, some, type Option } from '@helix/core';
 import { FileSystemFileStore, OpenSpecEngine, QualityGate } from '@helix/governance';
+import { RepositoryGraph } from '@helix/repository';
 import { Cli } from './cli.js';
 import type { CliConfig, CliIo } from './command.js';
 import { ExitCode } from './command.js';
@@ -22,6 +23,7 @@ import {
   pluginCompatibilityProbe,
   toolchainProbe,
 } from './commands/doctor.js';
+import { createQueryCommand, type GraphSource } from './commands/query.js';
 
 const nodeFileSink: FileSink = {
   exists: (path) => existsSync(path),
@@ -40,6 +42,16 @@ const minimalTemplate: Template = {
 };
 
 const builtInTemplates = new Map<string, Template>([[minimalTemplate.name, minimalTemplate]]);
+
+/**
+ * Runtime repository-graph source. Graph population from the workspace is a
+ * later roadmap capability; until then the runtime graph is empty, so listing
+ * queries deterministically return no results. The command's full behaviour is
+ * exercised over populated graphs in unit tests.
+ */
+const emptyGraphSource: GraphSource = {
+  load: () => new RepositoryGraph(),
+};
 
 /** Verify the architecture dependency ruleset is present and well-formed at runtime. */
 function readArchitectureViolations(cwd: string): readonly ArchitectureViolation[] {
@@ -119,7 +131,8 @@ async function main(): Promise<void> {
         configurationProbe(config),
         pluginCompatibilityProbe([]),
       ]),
-    );
+    )
+    .register(createQueryCommand(emptyGraphSource));
 
   const result = await cli.run(process.argv.slice(2), io, { config });
   process.exitCode = result.exitCode;

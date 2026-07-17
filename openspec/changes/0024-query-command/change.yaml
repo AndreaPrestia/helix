@@ -1,5 +1,5 @@
 id: 0024-query-command
-status: proposed
+status: completed
 architecture_baseline: v0.2.1
 implementation_contract: ../../../IMPLEMENTATION_CONTRACT.md
 sequence: 24
