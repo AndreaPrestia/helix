@@ -36,3 +36,18 @@ export { FileSystemFileStore } from './filesystem-file-store.js';
 export { OpenSpecEngine } from './engine.js';
 export { validateChangeStructure } from './validate.js';
 export { applyDelta, archiveChange } from './apply.js';
+
+export {
+  type Policy,
+  type PolicyDecision,
+  type PolicyResult,
+  allow,
+  deny,
+} from './policy/policy.js';
+export { type Waiver, isValidWaiver } from './policy/waiver.js';
+export {
+  QualityGate,
+  type GateStatus,
+  type GateReport,
+  type EvaluatedPolicy,
+} from './policy/quality-gate.js';
