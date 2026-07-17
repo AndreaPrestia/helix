@@ -19,3 +19,4 @@ export {
 export { packageNodeId, fileNodeId, symbolNodeId, testNodeId } from './ids.js';
 export { RepositoryError, UnknownNodeError } from './errors.js';
 export { RepositoryGraph } from './repository-graph.js';
+export { ImpactAnalyzer, documentationAttribute, type ImpactReport } from './impact.js';

@@ -53,7 +53,7 @@ changes:
     dependsOn: ["0012-knowledge-model"]
   - id: 0014-impact-analysis
     title: "Impact analysis"
-    status: proposed
+    status: completed
     dependsOn: ["0013-repository-graph"]
   - id: 0015-context-engine
     title: "Context engine"
