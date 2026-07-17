@@ -11,3 +11,18 @@ export type { EventEnvelope, PublishMetadata } from './envelope.js';
 export { HandlerDispatchError, type HandlerFailure } from './errors.js';
 export { InMemoryEventLog, type ReplayHandler } from './event-log.js';
 export { InMemoryEventBus, WILDCARD, type EventHandler, type Unsubscribe } from './event-bus.js';
+
+export {
+  type EventStore,
+  type StoredEvent,
+  type StreamWrite,
+  STREAM_ID_PATTERN,
+} from './store/event-store.js';
+export {
+  EventStoreError,
+  ConcurrencyError,
+  InvalidStreamIdError,
+  StoreCorruptionError,
+} from './store/store-errors.js';
+export { InMemoryEventStore } from './store/in-memory-event-store.js';
+export { JsonlEventStore } from './store/jsonl-event-store.js';
