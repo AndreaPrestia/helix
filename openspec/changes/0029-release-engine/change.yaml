@@ -1,5 +1,5 @@
 id: 0029-release-engine
-status: proposed
+status: completed
 architecture_baseline: v0.2.1
 implementation_contract: ../../../IMPLEMENTATION_CONTRACT.md
 sequence: 29
