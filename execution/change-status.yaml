@@ -1,7 +1,7 @@
 changes:
   - id: 0001-workspace-bootstrap
     title: "Workspace bootstrap"
-    status: proposed
+    status: completed
     dependsOn: []
   - id: 0002-package-boundaries
     title: "Package boundaries and architecture tests"
