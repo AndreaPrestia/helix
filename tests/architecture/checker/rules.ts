@@ -43,6 +43,12 @@ export function checkDeclaredResponsibilities(
 ): Violation[] {
   const violations: Violation[] = [];
   for (const pkg of packages) {
+    // The dependency ruleset's `packages` map enumerates library packages only.
+    // Apps are composition roots and plugins are extensions; both are governed by
+    // separate rules and are exempt from this declaration requirement.
+    if (pkg.group !== 'packages') {
+      continue;
+    }
     if (!Object.prototype.hasOwnProperty.call(rules.packages, pkg.key)) {
       violations.push({
         rule: 'declared-responsibilities',
