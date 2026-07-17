@@ -41,3 +41,23 @@ export {
   PluginLifecycleError,
   UnknownPluginError,
 } from './errors.js';
+
+export {
+  type AiProvider,
+  type ModelInfo,
+  type Message,
+  type MessageRole,
+  type ToolDefinition,
+  type ToolCall,
+  type Usage,
+  type FinishReason,
+  type CompletionRequest,
+  type CompletionResult,
+  type StreamChunk,
+} from './provider/provider.js';
+export {
+  ProviderError,
+  ModelNotFoundError,
+  InvalidRequestError,
+} from './provider/provider-errors.js';
+export { ReferenceProvider } from './provider/reference-provider.js';
