@@ -19,3 +19,38 @@ export {
   type ConfigReader,
   type DiscoveredConfig,
 } from './config.js';
+
+export {
+  createInitCommand,
+  validateManifest,
+  type FileSink,
+  type Template,
+  type TemplateFile,
+  type InitDeps,
+  type GeneratedManifest,
+} from './commands/init.js';
+export {
+  createValidateCommand,
+  runChecks,
+  openSpecValidationCheck,
+  architectureRulesCheck,
+  qualityGateCheck,
+  type ValidationCheck,
+  type ValidationFinding,
+  type ValidationSeverity,
+  type ValidationReport,
+  type ArchitectureViolation,
+} from './commands/validate.js';
+export {
+  createDoctorCommand,
+  runProbes,
+  environmentProbe,
+  toolchainProbe,
+  configurationProbe,
+  pluginCompatibilityProbe,
+  type DoctorCheck,
+  type DoctorProbe,
+  type DoctorReport,
+  type DoctorStatus,
+  type PluginApi,
+} from './commands/doctor.js';

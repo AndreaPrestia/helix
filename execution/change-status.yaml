@@ -89,7 +89,7 @@ changes:
     dependsOn: ["0021-review-engine"]
   - id: 0023-cli-init-validate-doctor
     title: "Core CLI commands"
-    status: proposed
+    status: completed
     dependsOn: ["0022-cli-foundation"]
   - id: 0024-query-command
     title: "Repository query command"
