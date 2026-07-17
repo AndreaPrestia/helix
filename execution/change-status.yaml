@@ -49,7 +49,7 @@ changes:
     dependsOn: ["0011-policy-engine"]
   - id: 0013-repository-graph
     title: "Repository graph"
-    status: proposed
+    status: completed
     dependsOn: ["0012-knowledge-model"]
   - id: 0014-impact-analysis
     title: "Impact analysis"
