@@ -65,7 +65,7 @@ changes:
     dependsOn: ["0015-context-engine"]
   - id: 0017-execution-planner
     title: "Execution planner"
-    status: proposed
+    status: completed
     dependsOn: ["0016-prompt-compiler"]
   - id: 0018-plugin-sdk
     title: "Plugin SDK"
