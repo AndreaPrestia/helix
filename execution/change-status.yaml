@@ -57,7 +57,7 @@ changes:
     dependsOn: ["0013-repository-graph"]
   - id: 0015-context-engine
     title: "Context engine"
-    status: proposed
+    status: completed
     dependsOn: ["0014-impact-analysis"]
   - id: 0016-prompt-compiler
     title: "Prompt compiler"
