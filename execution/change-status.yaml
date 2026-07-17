@@ -37,7 +37,7 @@ changes:
     dependsOn: ["0008-snapshot-runtime"]
   - id: 0010-openspec-engine
     title: "OpenSpec governance engine"
-    status: proposed
+    status: completed
     dependsOn: ["0009-durable-outbox"]
   - id: 0011-policy-engine
     title: "Policy and quality gates"
