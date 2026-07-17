@@ -73,7 +73,7 @@ changes:
     dependsOn: ["0017-execution-planner"]
   - id: 0019-provider-contract
     title: "Provider contract and reference provider"
-    status: proposed
+    status: completed
     dependsOn: ["0018-plugin-sdk"]
   - id: 0020-agent-runtime
     title: "Agent runtime"
