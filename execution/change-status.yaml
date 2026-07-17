@@ -117,7 +117,7 @@ changes:
     dependsOn: ["0028-security-hardening"]
   - id: 0030-self-hosting
     title: "Helix self-hosting milestone"
-    status: proposed
+    status: completed
     dependsOn: ["0029-release-engine"]
   - id: 0031-conflict-impact-atlas-bootstrap
     title: "First external dogfood"
