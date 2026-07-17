@@ -1,0 +1,19 @@
+# Build and dependency artifacts
+node_modules/
+dist/
+coverage/
+.turbo/
+*.tsbuildinfo
+pnpm-lock.yaml
+
+# Pre-existing governance artifacts are not owned by this change and must not be
+# reformatted. Prettier only checks files introduced by the workspace bootstrap.
+architecture-baseline/
+execution/
+openspec/
+prompts/
+reference/
+CLAUDE.md
+IMPLEMENTATION_CONTRACT.md
+MANIFEST.json
+README.md
