@@ -85,7 +85,7 @@ changes:
     dependsOn: ["0020-agent-runtime"]
   - id: 0022-cli-foundation
     title: "CLI foundation"
-    status: proposed
+    status: completed
     dependsOn: ["0021-review-engine"]
   - id: 0023-cli-init-validate-doctor
     title: "Core CLI commands"

@@ -48,6 +48,18 @@ describe('declared package responsibilities', () => {
     expect(violations).toHaveLength(1);
     expect(violations[0]?.rule).toBe('declared-responsibilities');
   });
+
+  it('exempts apps and plugins (composition roots / extensions)', () => {
+    expect(
+      checkDeclaredResponsibilities([pkg('@helix/cli', 'cli', { group: 'apps' })], rules),
+    ).toEqual([]);
+    expect(
+      checkDeclaredResponsibilities(
+        [pkg('@helix/some-plugin', 'some-plugin', { group: 'plugins' })],
+        rules,
+      ),
+    ).toEqual([]);
+  });
 });
 
 describe('public entry points only', () => {
