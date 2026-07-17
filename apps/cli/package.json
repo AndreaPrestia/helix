@@ -22,7 +22,9 @@
     "typecheck": "tsc -p tsconfig.json --noEmit"
   },
   "dependencies": {
-    "@helix/core": "workspace:*"
+    "@helix/core": "workspace:*",
+    "@helix/governance": "workspace:*",
+    "@helix/plugin-sdk": "workspace:*"
   },
   "devDependencies": {
     "@types/node": "^22.10.5",

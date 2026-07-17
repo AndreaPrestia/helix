@@ -44,6 +44,12 @@ importers:
       '@helix/core':
         specifier: workspace:*
         version: link:../../packages/core
+      '@helix/governance':
+        specifier: workspace:*
+        version: link:../../packages/governance
+      '@helix/plugin-sdk':
+        specifier: workspace:*
+        version: link:../../packages/plugin-sdk
     devDependencies:
       '@types/node':
         specifier: ^22.10.5
