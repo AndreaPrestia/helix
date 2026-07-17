@@ -53,3 +53,14 @@ export {
   type SpecificationStatusChangedPayload,
   type SpecificationSupersededPayload,
 } from './specification/events.js';
+
+export { Task, type TaskId, type TaskDependencies } from './task/task.js';
+export type { TaskSnapshot } from './task/snapshot.js';
+export { taskStatuses, taskTransitions, type TaskStatus } from './task/status.js';
+export {
+  taskEventNames,
+  type TaskCreatedPayload,
+  type TaskStatusChangedPayload,
+  type TaskBlockedPayload,
+  type TaskCancelledPayload,
+} from './task/events.js';
