@@ -5,7 +5,7 @@ changes:
     dependsOn: []
   - id: 0002-package-boundaries
     title: "Package boundaries and architecture tests"
-    status: proposed
+    status: completed
     dependsOn: ["0001-workspace-bootstrap"]
   - id: 0003-core-primitives
     title: "Core domain primitives"
