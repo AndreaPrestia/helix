@@ -81,7 +81,7 @@ changes:
     dependsOn: ["0019-provider-contract"]
   - id: 0021-review-engine
     title: "Review engine"
-    status: proposed
+    status: completed
     dependsOn: ["0020-agent-runtime"]
   - id: 0022-cli-foundation
     title: "CLI foundation"
