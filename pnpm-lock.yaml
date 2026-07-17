@@ -50,6 +50,9 @@ importers:
       '@helix/plugin-sdk':
         specifier: workspace:*
         version: link:../../packages/plugin-sdk
+      '@helix/repository':
+        specifier: workspace:*
+        version: link:../../packages/repository
     devDependencies:
       '@types/node':
         specifier: ^22.10.5

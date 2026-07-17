@@ -24,7 +24,8 @@
   "dependencies": {
     "@helix/core": "workspace:*",
     "@helix/governance": "workspace:*",
-    "@helix/plugin-sdk": "workspace:*"
+    "@helix/plugin-sdk": "workspace:*",
+    "@helix/repository": "workspace:*"
   },
   "devDependencies": {
     "@types/node": "^22.10.5",
