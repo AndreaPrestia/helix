@@ -14,5 +14,5 @@ export interface DomainEvent<Name extends string = string, Payload = unknown> {
   /** When the event occurred. */
   readonly occurredAt: Date;
   /** Immutable event payload. */
-  readonly payload: Readonly<Payload>;
+  readonly payload: Payload;
 }

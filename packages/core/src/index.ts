@@ -24,3 +24,32 @@ export type { DomainEvent } from './domain-event.js';
 
 export type { Clock } from './ports/clock.js';
 export type { IdGenerator } from './ports/id-generator.js';
+
+export {
+  Specification,
+  type SpecificationId,
+  type SpecificationDependencies,
+} from './specification/specification.js';
+export {
+  Requirement,
+  type RequirementId,
+  type RequirementSnapshot,
+} from './specification/requirement.js';
+export type { SpecificationSnapshot } from './specification/snapshot.js';
+export {
+  specificationStatuses,
+  requirementStatuses,
+  specificationTransitions,
+  requirementTransitions,
+  canTransition,
+  type SpecificationStatus,
+  type RequirementStatus,
+} from './specification/status.js';
+export {
+  specificationEventNames,
+  type SpecificationDraftedPayload,
+  type RequirementAddedPayload,
+  type RequirementStatusChangedPayload,
+  type SpecificationStatusChangedPayload,
+  type SpecificationSupersededPayload,
+} from './specification/events.js';
