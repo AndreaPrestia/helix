@@ -61,7 +61,7 @@ changes:
     dependsOn: ["0014-impact-analysis"]
   - id: 0016-prompt-compiler
     title: "Prompt compiler"
-    status: proposed
+    status: completed
     dependsOn: ["0015-context-engine"]
   - id: 0017-execution-planner
     title: "Execution planner"
