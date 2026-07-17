@@ -40,3 +40,20 @@ export {
   type LoadResult,
   type FallbackReason,
 } from './snapshot/snapshot-repository.js';
+
+export { type OutboxRecord, type OutboxStatus, type OutboxStore } from './outbox/outbox-store.js';
+export { InMemoryOutboxStore } from './outbox/in-memory-outbox-store.js';
+export {
+  OutboxDispatcher,
+  defaultRetryPolicy,
+  type RetryPolicy,
+  type OutboxHandler,
+  type DispatchReport,
+} from './outbox/dispatcher.js';
+export {
+  UnitOfWork,
+  type CommitOptions,
+  type CommitResult,
+  type SnapshotFailure,
+  type SnapshotMaterializer,
+} from './outbox/unit-of-work.js';

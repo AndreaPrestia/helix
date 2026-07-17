@@ -33,7 +33,7 @@ changes:
     dependsOn: ["0007-event-persistence"]
   - id: 0009-durable-outbox
     title: "Durable dispatch and outbox"
-    status: proposed
+    status: completed
     dependsOn: ["0008-snapshot-runtime"]
   - id: 0010-openspec-engine
     title: "OpenSpec governance engine"
