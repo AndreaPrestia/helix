@@ -1,0 +1,32 @@
+{
+  "name": "@helix/release",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "helix-release": "./dist/main.js"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@helix/core": "workspace:*",
+    "@helix/governance": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "tsup": "^8.3.5"
+  }
+}

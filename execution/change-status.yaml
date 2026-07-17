@@ -113,7 +113,7 @@ changes:
     dependsOn: ["0027-metrics"]
   - id: 0029-release-engine
     title: "Release engine"
-    status: proposed
+    status: completed
     dependsOn: ["0028-security-hardening"]
   - id: 0030-self-hosting
     title: "Helix self-hosting milestone"
