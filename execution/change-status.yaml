@@ -105,7 +105,7 @@ changes:
     dependsOn: ["0025-local-daemon"]
   - id: 0027-metrics
     title: "Engineering metrics"
-    status: proposed
+    status: completed
     dependsOn: ["0026-dashboard"]
   - id: 0028-security-hardening
     title: "Security model hardening"
