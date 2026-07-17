@@ -45,7 +45,7 @@ changes:
     dependsOn: ["0010-openspec-engine"]
   - id: 0012-knowledge-model
     title: "Knowledge model"
-    status: proposed
+    status: completed
     dependsOn: ["0011-policy-engine"]
   - id: 0013-repository-graph
     title: "Repository graph"
