@@ -77,7 +77,7 @@ changes:
     dependsOn: ["0018-plugin-sdk"]
   - id: 0020-agent-runtime
     title: "Agent runtime"
-    status: proposed
+    status: completed
     dependsOn: ["0019-provider-contract"]
   - id: 0021-review-engine
     title: "Review engine"
