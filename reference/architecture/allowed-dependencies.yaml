@@ -1,0 +1,57 @@
+schemaVersion: 1
+
+modules:
+  apps.cli:
+    mayImport:
+      - packages.core
+      - packages.workspace
+      - packages.specification
+      - packages.validation
+      - packages.context-builder
+      - packages.generators
+      - packages.shared
+    mustNotImport:
+      - plugins.*
+
+  packages.core:
+    mayImport:
+      - packages.shared
+    mustNotImport:
+      - apps.*
+      - plugins.*
+      - packages.workspace
+      - packages.validation
+
+  packages.workspace:
+    mayImport:
+      - packages.core
+      - packages.shared
+    mustNotImport:
+      - apps.*
+      - plugins.*
+
+  packages.specification:
+    mayImport:
+      - packages.core
+      - packages.shared
+      - packages.validation
+    mustNotImport:
+      - apps.*
+      - plugins.*
+
+  packages.context-builder:
+    mayImport:
+      - packages.core
+      - packages.workspace
+      - packages.specification
+      - packages.shared
+    mustNotImport:
+      - apps.*
+      - plugins.*
+
+  plugins.*:
+    mayImport:
+      - packages.core
+      - packages.shared
+    mustNotImport:
+      - apps.*

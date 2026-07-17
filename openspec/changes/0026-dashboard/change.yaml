@@ -1,0 +1,14 @@
+id: 0026-dashboard
+status: proposed
+architecture_baseline: v0.2.1
+implementation_contract: ../../../IMPLEMENTATION_CONTRACT.md
+sequence: 26
+depends_on:
+  - 0025-local-daemon
+scope_policy: single-change
+architecture_evolution_allowed: false
+completion_requires:
+  - tasks_with_evidence
+  - tests
+  - architecture_checks
+  - verification_report

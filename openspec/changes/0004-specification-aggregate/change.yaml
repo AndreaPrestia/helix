@@ -1,0 +1,14 @@
+id: 0004-specification-aggregate
+status: proposed
+architecture_baseline: v0.2.1
+implementation_contract: ../../../IMPLEMENTATION_CONTRACT.md
+sequence: 4
+depends_on:
+  - 0003-core-primitives
+scope_policy: single-change
+architecture_evolution_allowed: false
+completion_requires:
+  - tasks_with_evidence
+  - tests
+  - architecture_checks
+  - verification_report

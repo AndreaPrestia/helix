@@ -1,0 +1,14 @@
+id: 0011-policy-engine
+status: proposed
+architecture_baseline: v0.2.1
+implementation_contract: ../../../IMPLEMENTATION_CONTRACT.md
+sequence: 11
+depends_on:
+  - 0010-openspec-engine
+scope_policy: single-change
+architecture_evolution_allowed: false
+completion_requires:
+  - tasks_with_evidence
+  - tests
+  - architecture_checks
+  - verification_report

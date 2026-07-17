@@ -1,0 +1,9 @@
+active: v0.2.1
+status: frozen
+contract: IMPLEMENTATION_CONTRACT.md
+evolution_requires:
+  - rfc
+  - accepted_adrs
+  - versioned_baseline
+  - migration_plan
+  - explicit_approval

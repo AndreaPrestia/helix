@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "packages": {
+    "core": [],
+    "events": [
+      "@helix/core"
+    ],
+    "application": [
+      "@helix/core",
+      "@helix/events"
+    ],
+    "configuration": [
+      "@helix/core"
+    ],
+    "governance": [
+      "@helix/core",
+      "@helix/events"
+    ],
+    "knowledge": [
+      "@helix/core",
+      "@helix/events"
+    ],
+    "repository": [
+      "@helix/core",
+      "@helix/events"
+    ],
+    "context": [
+      "@helix/core",
+      "@helix/knowledge",
+      "@helix/repository"
+    ],
+    "validation": [
+      "@helix/core",
+      "@helix/governance"
+    ],
+    "prompt": [
+      "@helix/core",
+      "@helix/context"
+    ],
+    "planner": [
+      "@helix/core",
+      "@helix/governance",
+      "@helix/context"
+    ],
+    "execution": [
+      "@helix/core",
+      "@helix/events",
+      "@helix/planner"
+    ],
+    "review": [
+      "@helix/core",
+      "@helix/governance"
+    ],
+    "metrics": [
+      "@helix/core",
+      "@helix/events"
+    ],
+    "plugin-sdk": [
+      "@helix/core",
+      "@helix/events"
+    ],
+    "testing": [
+      "@helix/core",
+      "@helix/events"
+    ]
+  },
+  "rules": {
+    "noCycles": true,
+    "noDeepImports": true,
+    "coreInfrastructureImports": [],
+    "pluginsMayDependOnPlugins": false
+  }
+}

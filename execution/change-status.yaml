@@ -1,0 +1,125 @@
+changes:
+  - id: 0001-workspace-bootstrap
+    title: "Workspace bootstrap"
+    status: proposed
+    dependsOn: []
+  - id: 0002-package-boundaries
+    title: "Package boundaries and architecture tests"
+    status: proposed
+    dependsOn: ["0001-workspace-bootstrap"]
+  - id: 0003-core-primitives
+    title: "Core domain primitives"
+    status: proposed
+    dependsOn: ["0002-package-boundaries"]
+  - id: 0004-specification-aggregate
+    title: "Specification aggregate"
+    status: proposed
+    dependsOn: ["0003-core-primitives"]
+  - id: 0005-task-aggregate
+    title: "Task aggregate"
+    status: proposed
+    dependsOn: ["0004-specification-aggregate"]
+  - id: 0006-event-runtime
+    title: "In-memory event runtime"
+    status: proposed
+    dependsOn: ["0005-task-aggregate"]
+  - id: 0007-event-persistence
+    title: "Durable event persistence"
+    status: proposed
+    dependsOn: ["0006-event-runtime"]
+  - id: 0008-snapshot-runtime
+    title: "Snapshot runtime"
+    status: proposed
+    dependsOn: ["0007-event-persistence"]
+  - id: 0009-durable-outbox
+    title: "Durable dispatch and outbox"
+    status: proposed
+    dependsOn: ["0008-snapshot-runtime"]
+  - id: 0010-openspec-engine
+    title: "OpenSpec governance engine"
+    status: proposed
+    dependsOn: ["0009-durable-outbox"]
+  - id: 0011-policy-engine
+    title: "Policy and quality gates"
+    status: proposed
+    dependsOn: ["0010-openspec-engine"]
+  - id: 0012-knowledge-model
+    title: "Knowledge model"
+    status: proposed
+    dependsOn: ["0011-policy-engine"]
+  - id: 0013-repository-graph
+    title: "Repository graph"
+    status: proposed
+    dependsOn: ["0012-knowledge-model"]
+  - id: 0014-impact-analysis
+    title: "Impact analysis"
+    status: proposed
+    dependsOn: ["0013-repository-graph"]
+  - id: 0015-context-engine
+    title: "Context engine"
+    status: proposed
+    dependsOn: ["0014-impact-analysis"]
+  - id: 0016-prompt-compiler
+    title: "Prompt compiler"
+    status: proposed
+    dependsOn: ["0015-context-engine"]
+  - id: 0017-execution-planner
+    title: "Execution planner"
+    status: proposed
+    dependsOn: ["0016-prompt-compiler"]
+  - id: 0018-plugin-sdk
+    title: "Plugin SDK"
+    status: proposed
+    dependsOn: ["0017-execution-planner"]
+  - id: 0019-provider-contract
+    title: "Provider contract and reference provider"
+    status: proposed
+    dependsOn: ["0018-plugin-sdk"]
+  - id: 0020-agent-runtime
+    title: "Agent runtime"
+    status: proposed
+    dependsOn: ["0019-provider-contract"]
+  - id: 0021-review-engine
+    title: "Review engine"
+    status: proposed
+    dependsOn: ["0020-agent-runtime"]
+  - id: 0022-cli-foundation
+    title: "CLI foundation"
+    status: proposed
+    dependsOn: ["0021-review-engine"]
+  - id: 0023-cli-init-validate-doctor
+    title: "Core CLI commands"
+    status: proposed
+    dependsOn: ["0022-cli-foundation"]
+  - id: 0024-query-command
+    title: "Repository query command"
+    status: proposed
+    dependsOn: ["0023-cli-init-validate-doctor"]
+  - id: 0025-local-daemon
+    title: "Local daemon"
+    status: proposed
+    dependsOn: ["0024-query-command"]
+  - id: 0026-dashboard
+    title: "Monitoring dashboard"
+    status: proposed
+    dependsOn: ["0025-local-daemon"]
+  - id: 0027-metrics
+    title: "Engineering metrics"
+    status: proposed
+    dependsOn: ["0026-dashboard"]
+  - id: 0028-security-hardening
+    title: "Security model hardening"
+    status: proposed
+    dependsOn: ["0027-metrics"]
+  - id: 0029-release-engine
+    title: "Release engine"
+    status: proposed
+    dependsOn: ["0028-security-hardening"]
+  - id: 0030-self-hosting
+    title: "Helix self-hosting milestone"
+    status: proposed
+    dependsOn: ["0029-release-engine"]
+  - id: 0031-conflict-impact-atlas-bootstrap
+    title: "First external dogfood"
+    status: proposed
+    dependsOn: ["0030-self-hosting"]

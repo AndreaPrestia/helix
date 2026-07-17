@@ -1,0 +1,14 @@
+id: 0029-release-engine
+status: proposed
+architecture_baseline: v0.2.1
+implementation_contract: ../../../IMPLEMENTATION_CONTRACT.md
+sequence: 29
+depends_on:
+  - 0028-security-hardening
+scope_policy: single-change
+architecture_evolution_allowed: false
+completion_requires:
+  - tasks_with_evidence
+  - tests
+  - architecture_checks
+  - verification_report

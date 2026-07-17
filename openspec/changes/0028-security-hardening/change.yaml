@@ -1,0 +1,14 @@
+id: 0028-security-hardening
+status: proposed
+architecture_baseline: v0.2.1
+implementation_contract: ../../../IMPLEMENTATION_CONTRACT.md
+sequence: 28
+depends_on:
+  - 0027-metrics
+scope_policy: single-change
+architecture_evolution_allowed: false
+completion_requires:
+  - tasks_with_evidence
+  - tests
+  - architecture_checks
+  - verification_report

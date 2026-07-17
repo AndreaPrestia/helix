@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: quality.default
+
+gates:
+  - id: QG-001
+    name: Approved specification
+    severity: blocking
+    rule: implementation_requires_approved_specification
+
+  - id: QG-002
+    name: Requirement traceability
+    severity: blocking
+    rule: changed_behaviour_requires_requirement_and_task
+
+  - id: QG-003
+    name: Architecture boundaries
+    severity: blocking
+    rule: imports_must_match_allowed_dependencies
+
+  - id: QG-004
+    name: Strict TypeScript
+    severity: blocking
+    rule: typescript_strict_no_unjustified_any
+
+  - id: QG-005
+    name: Test evidence
+    severity: blocking
+    rule: acceptance_criteria_require_tests
+
+  - id: QG-006
+    name: Secrets
+    severity: blocking
+    rule: repository_must_not_contain_secrets
+
+  - id: QG-007
+    name: Documentation freshness
+    severity: warning
+    rule: behaviour_changes_update_docs
+
+  - id: QG-008
+    name: Reproducible artifacts
+    severity: blocking
+    rule: release_artifacts_are_versioned_and_immutable

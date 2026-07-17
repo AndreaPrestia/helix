@@ -1,0 +1,1524 @@
+{
+  "name": "helix-openspec-implementation-pack",
+  "version": "2.0.0",
+  "architectureBaseline": "v0.2.1",
+  "implementationContract": "IMPLEMENTATION_CONTRACT.md",
+  "fileCount": 304,
+  "files": [
+    {
+      "path": "CLAUDE.md",
+      "size": 1271,
+      "sha256": "e56dc6b393868aa0d5771a6b102b22afd7e218c1b1d724c08774b7afb1d674c8"
+    },
+    {
+      "path": "IMPLEMENTATION_CONTRACT.md",
+      "size": 8123,
+      "sha256": "28c53d14f32418dc89c88900227751bf76b7c3536e02ecc807ad052b846a2a7b"
+    },
+    {
+      "path": "README.md",
+      "size": 1434,
+      "sha256": "ed0369bd6b701b0ee89e97032030cdd54a6be1688fb491ea1136b59cb31cee02"
+    },
+    {
+      "path": "architecture-baseline/baseline.yaml",
+      "size": 177,
+      "sha256": "e3ffa2f981e2bd1bcfee47d3ce0075b8d11a44215923d8f7c930a02d4c23b240"
+    },
+    {
+      "path": "architecture-baseline/v0.2.1/BASELINE.md",
+      "size": 1643,
+      "sha256": "7fbb02e927ac4bbd97dcbc3c9da278bdb44d7f63d6197865f40a02c67f0c0981"
+    },
+    {
+      "path": "architecture-baseline/v0.2.1/DEPENDENCY_RULES.md",
+      "size": 1013,
+      "sha256": "610b20ae14b7a569997903e7aa57c12a63880a46d4083da6e6d0e851e193be24"
+    },
+    {
+      "path": "architecture-baseline/v0.2.1/EVOLUTION_PROCESS.md",
+      "size": 554,
+      "sha256": "7466bd53877127fe09300a6c2acfcf4eb7938063aa378a58116cfff7b10a32dd"
+    },
+    {
+      "path": "architecture-baseline/v0.2.1/PUBLIC_API_POLICY.md",
+      "size": 466,
+      "sha256": "88cd2c3c060aa449190103980650435ef9f2908e0ca76967d5a6ddf8a5da4b13"
+    },
+    {
+      "path": "architecture-baseline/v0.2.1/TECHNOLOGY_BASELINE.md",
+      "size": 560,
+      "sha256": "bdef9520226cd56c459612b4ef6f8b7013d07ff628b6fab09d5f8cfdf5af2775"
+    },
+    {
+      "path": "execution/branching-strategy.md",
+      "size": 201,
+      "sha256": "ca411fb945ed89a71ceb8f2fc9a147a3d4f75f7da326b203df7537b8f6d82b73"
+    },
+    {
+      "path": "execution/change-status.yaml",
+      "size": 3839,
+      "sha256": "5ea73514449cc13baeb86a4475ae3062416b615e224f3a2884f405292d0defb2"
+    },
+    {
+      "path": "execution/definition-of-done.md",
+      "size": 482,
+      "sha256": "c1512e5679c70c69d9f437f01d885b3d2c80a1d6276dbe2e085b3f5b5aca20c7"
+    },
+    {
+      "path": "openspec/changes/0001-workspace-bootstrap/change.yaml",
+      "size": 335,
+      "sha256": "0777cd3f62cb8122f2bad08d3d2205f0cc8b1683a53473815d868a4246a3e83c"
+    },
+    {
+      "path": "openspec/changes/0001-workspace-bootstrap/design.md",
+      "size": 891,
+      "sha256": "1bdd8e34f5864bb879e1d0ed6c32ca0dc4b677f559c197de3eaf25c96b36ed80"
+    },
+    {
+      "path": "openspec/changes/0001-workspace-bootstrap/proposal.md",
+      "size": 581,
+      "sha256": "1f0254ec7d93bf3408be12dbfa5018b0cc29f627dcf5ae97910bfc900728227f"
+    },
+    {
+      "path": "openspec/changes/0001-workspace-bootstrap/specs/foundation/workspace-bootstrap/spec.md",
+      "size": 509,
+      "sha256": "ecbd744d7256ddcd85a3c3eef9c47ed083cc4b3048f649e1cba5a04fb1e2f28e"
+    },
+    {
+      "path": "openspec/changes/0001-workspace-bootstrap/tasks.md",
+      "size": 550,
+      "sha256": "2c700cf74a46f1965341049f7a8d4ff971970bf814efe1a28134e44156752ed6"
+    },
+    {
+      "path": "openspec/changes/0001-workspace-bootstrap/verification.md",
+      "size": 299,
+      "sha256": "216b23205c2d31ef8e733efe6076ba2114c5aafe5fcc47f750ac4fbe6e7315eb"
+    },
+    {
+      "path": "openspec/changes/0002-package-boundaries/change.yaml",
+      "size": 358,
+      "sha256": "01c78d2cfbc1edc6bd1189f302937b3b0fb6f673d188d4871d10ec519da3baf3"
+    },
+    {
+      "path": "openspec/changes/0002-package-boundaries/design.md",
+      "size": 912,
+      "sha256": "ff065fc35a3a3275a98bc260dd7a84ff7c8ec6605d62e3fbe6eb394df0caa7e8"
+    },
+    {
+      "path": "openspec/changes/0002-package-boundaries/proposal.md",
+      "size": 624,
+      "sha256": "05f577afb08cf6d07303556340919ec9667db1eb3aaea125d27037e3f52d1848"
+    },
+    {
+      "path": "openspec/changes/0002-package-boundaries/specs/foundation/package-boundaries/spec.md",
+      "size": 530,
+      "sha256": "dd888c7789cb25596235c01dad7c0160457c6f01b73f26dd247555f5ebb125d5"
+    },
+    {
+      "path": "openspec/changes/0002-package-boundaries/tasks.md",
+      "size": 572,
+      "sha256": "a371dd4fba5856aec00fe13302cb4dcd954cf9eea298070dae829ea2542a0417"
+    },
+    {
+      "path": "openspec/changes/0002-package-boundaries/verification.md",
+      "size": 321,
+      "sha256": "9dda3a0b5d2c801d38e31c09b2349a49d1c4002630cad63b63c4240e394b0fef"
+    },
+    {
+      "path": "openspec/changes/0003-core-primitives/change.yaml",
+      "size": 354,
+      "sha256": "7bfe9e764fe2c2861a28490d51aff954c786d1acf9d7271dcb0b6362ca466f93"
+    },
+    {
+      "path": "openspec/changes/0003-core-primitives/design.md",
+      "size": 886,
+      "sha256": "6e4afdacd249f472f85b633b5ee62f937f1d565ebc7342b3b3ec8bbdfcb94465"
+    },
+    {
+      "path": "openspec/changes/0003-core-primitives/proposal.md",
+      "size": 597,
+      "sha256": "1597f0f00cd10365c72b7ae7eb8cd8131d0ec5144cffb02fa9c82538b2cfed91"
+    },
+    {
+      "path": "openspec/changes/0003-core-primitives/specs/domain/core-primitives/spec.md",
+      "size": 504,
+      "sha256": "33335303650f688d24f44dc04d6b62bf60ce093c609e2a5a383253b6ea207745"
+    },
+    {
+      "path": "openspec/changes/0003-core-primitives/tasks.md",
+      "size": 553,
+      "sha256": "d774dc366bd558a47414d3b65d629c4e07e41c49fd3b9dd382a85a5f6dee2aa7"
+    },
+    {
+      "path": "openspec/changes/0003-core-primitives/verification.md",
+      "size": 302,
+      "sha256": "f326426146f54f5531fea560fac9b8537ccb604162c473cfe9f98f8d01dafb7b"
+    },
+    {
+      "path": "openspec/changes/0004-specification-aggregate/change.yaml",
+      "size": 359,
+      "sha256": "c98b809b000dac255af09e5cbfd0b57c64ab3a396b0766ddabcb20f0870abdbc"
+    },
+    {
+      "path": "openspec/changes/0004-specification-aggregate/design.md",
+      "size": 895,
+      "sha256": "e89828c89dfaac23d42bab368c327e9cc6427e31acc43d4620e1bdc490e66379"
+    },
+    {
+      "path": "openspec/changes/0004-specification-aggregate/proposal.md",
+      "size": 603,
+      "sha256": "a6729ff2ec6bd66cefe8917281174e5e8599439eeda3f55a4a2a98060b761eb2"
+    },
+    {
+      "path": "openspec/changes/0004-specification-aggregate/specs/domain/specification-aggregate/spec.md",
+      "size": 513,
+      "sha256": "a89828a47ca68a8d2cb478c80dc0661e00e6237c34e368414e93ab2ad0b6e7a3"
+    },
+    {
+      "path": "openspec/changes/0004-specification-aggregate/tasks.md",
+      "size": 554,
+      "sha256": "1d0605cee3eb230b5bd2c28e848f662cdeece15710f9c09a446e349e7c27e192"
+    },
+    {
+      "path": "openspec/changes/0004-specification-aggregate/verification.md",
+      "size": 303,
+      "sha256": "2b54c2e78b550fb8adcaf778482e7772682c20bd3dba11d98552f9f500640e4d"
+    },
+    {
+      "path": "openspec/changes/0005-task-aggregate/change.yaml",
+      "size": 358,
+      "sha256": "05428c43fc2b79a4985523208f2f92e440a7bb114b021bea85d4d779d158103a"
+    },
+    {
+      "path": "openspec/changes/0005-task-aggregate/design.md",
+      "size": 877,
+      "sha256": "e727bfbf4d30bdcaf54216eba7765245b83f74f59970ccf767f229805401b3f8"
+    },
+    {
+      "path": "openspec/changes/0005-task-aggregate/proposal.md",
+      "size": 593,
+      "sha256": "be5309ffc44edcafc1ccfc2e14574a1a5811309229b6261fdbec041dafd0c0a5"
+    },
+    {
+      "path": "openspec/changes/0005-task-aggregate/specs/domain/task-aggregate/spec.md",
+      "size": 495,
+      "sha256": "616ab725383152fd86667d81da9a9d48b2b4326e65d4e803800d01321187c0c1"
+    },
+    {
+      "path": "openspec/changes/0005-task-aggregate/tasks.md",
+      "size": 545,
+      "sha256": "4ae06d3b64a171a14979d7559c3f2929fe8e3eb3e24eb6c96ab979ff47f729c5"
+    },
+    {
+      "path": "openspec/changes/0005-task-aggregate/verification.md",
+      "size": 294,
+      "sha256": "2454f3223bd4353af1e995c3087d7d17ea7f7bf587eb75e801495738ed6a15fe"
+    },
+    {
+      "path": "openspec/changes/0006-event-runtime/change.yaml",
+      "size": 348,
+      "sha256": "8205a69a21dda160c8dbab7c4cebf18315ed74a3bc1b8c18299e2b6916cb2753"
+    },
+    {
+      "path": "openspec/changes/0006-event-runtime/design.md",
+      "size": 886,
+      "sha256": "e94522b53e7f2c92f5c4cfea0202e55a8fb4fe06328425c27b8c91a31945bf25"
+    },
+    {
+      "path": "openspec/changes/0006-event-runtime/proposal.md",
+      "size": 593,
+      "sha256": "fb5afe60e6ec747da62354595ef617abd82dcb95661222b9742dcc4d71b6f0b5"
+    },
+    {
+      "path": "openspec/changes/0006-event-runtime/specs/runtime/event-runtime/spec.md",
+      "size": 504,
+      "sha256": "25048803c91355a9b3f3d69ed2fe8fb821bc543a68c2323d74b6241d574a8014"
+    },
+    {
+      "path": "openspec/changes/0006-event-runtime/tasks.md",
+      "size": 554,
+      "sha256": "5fd15f8e3ee82db53865a5f13f0d245e9b6ad4bf3fc3b323de9248f2f9f35425"
+    },
+    {
+      "path": "openspec/changes/0006-event-runtime/verification.md",
+      "size": 303,
+      "sha256": "980bd1617386fb9fb459fbd3d98ea5a96166197f8eee8c3d654d69f1936de72c"
+    },
+    {
+      "path": "openspec/changes/0007-event-persistence/change.yaml",
+      "size": 351,
+      "sha256": "9cc617db036c9aca63f7fc8d09659c19ccd3817889e5b8de4c501d1c22f36d28"
+    },
+    {
+      "path": "openspec/changes/0007-event-persistence/design.md",
+      "size": 892,
+      "sha256": "0c50467a8a65160206c7bb75a1d7e175267ba84fd5975e61dcc055b905e23cce"
+    },
+    {
+      "path": "openspec/changes/0007-event-persistence/proposal.md",
+      "size": 598,
+      "sha256": "39dd92fa9a4523f91f4cded98c5a14c125998ccd2deedd07cf8b8102849625d6"
+    },
+    {
+      "path": "openspec/changes/0007-event-persistence/specs/runtime/event-persistence/spec.md",
+      "size": 510,
+      "sha256": "632ab1bc9933f28a75b0da89fdec153a1ce7abc723b6d9d93e7d4c2f3236ac23"
+    },
+    {
+      "path": "openspec/changes/0007-event-persistence/tasks.md",
+      "size": 556,
+      "sha256": "b90869ea5ad021508dda9c25f2524e5b3384c0261e697ec050cb083112972f32"
+    },
+    {
+      "path": "openspec/changes/0007-event-persistence/verification.md",
+      "size": 305,
+      "sha256": "f42069ba8533c00ce3e0f68a8adb7a2e4d100d8bb50e3d8b5f3f1082cba6882f"
+    },
+    {
+      "path": "openspec/changes/0008-snapshot-runtime/change.yaml",
+      "size": 354,
+      "sha256": "bee53d2a607cc2e6481729317902dc1f9fd3f63fc24a52f8c632cc2b6694f888"
+    },
+    {
+      "path": "openspec/changes/0008-snapshot-runtime/design.md",
+      "size": 875,
+      "sha256": "f621d59d9ea1c47a983c777ba53cb641d3acbdb30133f52703cdac701ab584ca"
+    },
+    {
+      "path": "openspec/changes/0008-snapshot-runtime/proposal.md",
+      "size": 585,
+      "sha256": "785079e41a0e0c6192332ea482495bf2e0984d3486ebd9850770357811a8025a"
+    },
+    {
+      "path": "openspec/changes/0008-snapshot-runtime/specs/runtime/snapshots/spec.md",
+      "size": 493,
+      "sha256": "eab064445211470c876e56dc387bf8f99c9cc26a9e945a6c42f19116e85ff484"
+    },
+    {
+      "path": "openspec/changes/0008-snapshot-runtime/tasks.md",
+      "size": 547,
+      "sha256": "378f10180ac52e6a3953393311302df3d9995ca29ff1b9758e040f3b32075ac8"
+    },
+    {
+      "path": "openspec/changes/0008-snapshot-runtime/verification.md",
+      "size": 296,
+      "sha256": "07a90da2fde0a03a8438feb6e3ca0d713e191114fb4e3403da9e09660f1d4678"
+    },
+    {
+      "path": "openspec/changes/0009-durable-outbox/change.yaml",
+      "size": 351,
+      "sha256": "29575e3503fcb400b70e303e1037690fa243fe66fb5b12616d05c090c0a2c997"
+    },
+    {
+      "path": "openspec/changes/0009-durable-outbox/design.md",
+      "size": 883,
+      "sha256": "af59d39ad6b999219131e55bac2e73ff1ff97c0944b7533c4bf16c8fdf86a161"
+    },
+    {
+      "path": "openspec/changes/0009-durable-outbox/proposal.md",
+      "size": 592,
+      "sha256": "ac7972128486df47471e4f5b06b5c3c95a9696f40699684312489a30cf2b8ab5"
+    },
+    {
+      "path": "openspec/changes/0009-durable-outbox/specs/runtime/outbox/spec.md",
+      "size": 501,
+      "sha256": "0b17bd3f305959e971ba0a29fbe89addc7865d821439657d83bae3258aac7453"
+    },
+    {
+      "path": "openspec/changes/0009-durable-outbox/tasks.md",
+      "size": 558,
+      "sha256": "2363a44c3ac95a57e4ad88b49f17f512e3ac7383988cb68bf70b8d9bf19bed97"
+    },
+    {
+      "path": "openspec/changes/0009-durable-outbox/verification.md",
+      "size": 307,
+      "sha256": "7f09a2f84423f4eeaeb3d47b32ff245e86102fb5260cf73ec86278868740f3d2"
+    },
+    {
+      "path": "openspec/changes/0010-openspec-engine/change.yaml",
+      "size": 351,
+      "sha256": "3e323252b935d3268753e0ea01b2ad1e3ec589f760abe1bcc7b6cdd2280f4540"
+    },
+    {
+      "path": "openspec/changes/0010-openspec-engine/design.md",
+      "size": 894,
+      "sha256": "e1de5c2cb5bf65f123e5cf01ac34b9012c8defd5b72df95e88f462ab41888b1e"
+    },
+    {
+      "path": "openspec/changes/0010-openspec-engine/proposal.md",
+      "size": 601,
+      "sha256": "0b22ba7aca59ab65131db051addc20fd939b9d588ed1a4b4788364a596457761"
+    },
+    {
+      "path": "openspec/changes/0010-openspec-engine/specs/governance/openspec-engine/spec.md",
+      "size": 512,
+      "sha256": "f6814031984311f34ffc39973653608d488209f2123df357d15ea5e4f9e29e8f"
+    },
+    {
+      "path": "openspec/changes/0010-openspec-engine/tasks.md",
+      "size": 557,
+      "sha256": "e24318da66e2b846a76dcab5c2fa05a2088c3f1401a6b0ae23abb3ba219ed8fd"
+    },
+    {
+      "path": "openspec/changes/0010-openspec-engine/verification.md",
+      "size": 306,
+      "sha256": "9c1d8640ad96d6c3e03e71077dbe39df51cd34128f19bd9ef1a474189fa0c0ba"
+    },
+    {
+      "path": "openspec/changes/0011-policy-engine/change.yaml",
+      "size": 350,
+      "sha256": "b11f1a13187d51aa06def6f87ab35d87d15758004f299b38c9a6725c46dc65ff"
+    },
+    {
+      "path": "openspec/changes/0011-policy-engine/design.md",
+      "size": 890,
+      "sha256": "f41aa171249a1ae89deeac992d8e1933fffa5fdb9f9e500e7e37d2a4e18fabed"
+    },
+    {
+      "path": "openspec/changes/0011-policy-engine/proposal.md",
+      "size": 598,
+      "sha256": "f33764184747cef60ad4e3e0e79a05cc9e45e0c4e85427152d67b7d9cf9839ee"
+    },
+    {
+      "path": "openspec/changes/0011-policy-engine/specs/governance/policy-engine/spec.md",
+      "size": 508,
+      "sha256": "619373640293f5594e0232a026a200b24519cee6ea3a0dcbdbfeade393968b4a"
+    },
+    {
+      "path": "openspec/changes/0011-policy-engine/tasks.md",
+      "size": 555,
+      "sha256": "69b4825433a220ba94a20886e5764daadea8e5bfc894e4cbda0623a28e327a2b"
+    },
+    {
+      "path": "openspec/changes/0011-policy-engine/verification.md",
+      "size": 304,
+      "sha256": "5456f2e114b55e97c42c995dc02103292ded0a74a0b21c7502efd78c3a4729e5"
+    },
+    {
+      "path": "openspec/changes/0012-knowledge-model/change.yaml",
+      "size": 350,
+      "sha256": "016bafebc93f700a70b71bd31618aa778d903d8a568787a8ea4d29180660516b"
+    },
+    {
+      "path": "openspec/changes/0012-knowledge-model/design.md",
+      "size": 882,
+      "sha256": "97de246352666497175334d491335e69e7003eded1892d146d4ec85375bde982"
+    },
+    {
+      "path": "openspec/changes/0012-knowledge-model/proposal.md",
+      "size": 588,
+      "sha256": "202912168fb7fd149e9b66bc8fefeb5238ae5f6247dc89bde27d796bdbd26485"
+    },
+    {
+      "path": "openspec/changes/0012-knowledge-model/specs/knowledge/knowledge-model/spec.md",
+      "size": 500,
+      "sha256": "c0486a4604ee59d9455f907ab9cf458271f245cb12c2d709a7355fab6562d33a"
+    },
+    {
+      "path": "openspec/changes/0012-knowledge-model/tasks.md",
+      "size": 546,
+      "sha256": "c0f6be661ea3f8aed6fd5b9490ca0eb4564429dcceda09f628e8a766fa14c2fb"
+    },
+    {
+      "path": "openspec/changes/0012-knowledge-model/verification.md",
+      "size": 295,
+      "sha256": "d21d0b8b9143b63ded297c35050b8bf9d365a58a62c41f5271c83c612751812f"
+    },
+    {
+      "path": "openspec/changes/0013-repository-graph/change.yaml",
+      "size": 353,
+      "sha256": "38f46d543391bb155f3995dd07ea1913b23b4a601d91861225885b87e1fa5480"
+    },
+    {
+      "path": "openspec/changes/0013-repository-graph/design.md",
+      "size": 885,
+      "sha256": "3a1b4c8eb50ca8a5c73c033224a0fee6abf5134a8635d7f4ee677483dcab0657"
+    },
+    {
+      "path": "openspec/changes/0013-repository-graph/proposal.md",
+      "size": 593,
+      "sha256": "7803c457fa0f6356fe1dcea885e1b5c53e9083a346d4de98d325569780590f4f"
+    },
+    {
+      "path": "openspec/changes/0013-repository-graph/specs/repository/repository-graph/spec.md",
+      "size": 503,
+      "sha256": "88216ed816b9c8e214612d0364b9410ed86c2fe2a960dde3a6041886cad1f040"
+    },
+    {
+      "path": "openspec/changes/0013-repository-graph/tasks.md",
+      "size": 547,
+      "sha256": "7a7d47e8fda65d5ca800aa244f0d62eff3e8258f88de4c7b61bc667a8dd00208"
+    },
+    {
+      "path": "openspec/changes/0013-repository-graph/verification.md",
+      "size": 296,
+      "sha256": "3b21b8a6a1f338e33d2febfd73c30650b2a210254b4a1e1cbd108c57b53eb890"
+    },
+    {
+      "path": "openspec/changes/0014-impact-analysis/change.yaml",
+      "size": 353,
+      "sha256": "1ffc0bd3ffd9de5cb5d3641e665805d658ea090f42c4746a74069d6ea6672073"
+    },
+    {
+      "path": "openspec/changes/0014-impact-analysis/design.md",
+      "size": 883,
+      "sha256": "141cb1bd352b049a69788d9b4b10867abaf50a65e8f54fdaf456b5395ea7e952"
+    },
+    {
+      "path": "openspec/changes/0014-impact-analysis/proposal.md",
+      "size": 592,
+      "sha256": "aba6e12fbb3a5056c08c8c3596dbcb1713b4b94f5353cf15763b82c0a5b933a8"
+    },
+    {
+      "path": "openspec/changes/0014-impact-analysis/specs/repository/impact-analysis/spec.md",
+      "size": 501,
+      "sha256": "b10de9239dd93e68b1df62a1177865367214659044aba064c7b2d158d933c00a"
+    },
+    {
+      "path": "openspec/changes/0014-impact-analysis/tasks.md",
+      "size": 546,
+      "sha256": "a54b00abacb4f84d04ed3bb7fbaff0376371aca5e177506e6f4c49809f6ac188"
+    },
+    {
+      "path": "openspec/changes/0014-impact-analysis/verification.md",
+      "size": 295,
+      "sha256": "cac3efcd92d1ee372699ab5cdb71d78173cfb7c6e22b8bae4d3e8aab2e6afc9e"
+    },
+    {
+      "path": "openspec/changes/0015-context-engine/change.yaml",
+      "size": 351,
+      "sha256": "06376572aae625d92617a75da27e7d79f9e93218653a9183587b3c718e7f6e6a"
+    },
+    {
+      "path": "openspec/changes/0015-context-engine/design.md",
+      "size": 878,
+      "sha256": "e537de73a3e6ec0a61985b53fabb94af289849eda3a73d1b35302239c5ba1428"
+    },
+    {
+      "path": "openspec/changes/0015-context-engine/proposal.md",
+      "size": 586,
+      "sha256": "35cd673664c63ad20f48e33db377bfd699784d02169de0de7bad8e0543332496"
+    },
+    {
+      "path": "openspec/changes/0015-context-engine/specs/context/context-engine/spec.md",
+      "size": 496,
+      "sha256": "240749ab589da40bc0eb180c8ee7d017b99650de58060c06d0de030f168a1cb9"
+    },
+    {
+      "path": "openspec/changes/0015-context-engine/tasks.md",
+      "size": 545,
+      "sha256": "e4154399f6817aebebaf0553b5e8ef040456e248103291aced6eef71f4d1e8ab"
+    },
+    {
+      "path": "openspec/changes/0015-context-engine/verification.md",
+      "size": 294,
+      "sha256": "09cc7286a0a7ce12ec7c2d780ffe1b37fe4bb4d2428e26b0bd13a67447982d0e"
+    },
+    {
+      "path": "openspec/changes/0016-prompt-compiler/change.yaml",
+      "size": 351,
+      "sha256": "41b9aa819cd6417b35090eeae4ca5c0bc89a576b45ed29249528d0c194ad40b5"
+    },
+    {
+      "path": "openspec/changes/0016-prompt-compiler/design.md",
+      "size": 879,
+      "sha256": "d5a9b08935d3e1cd504a3b868d3245c98243bec65db5805e2eea40f32af8496f"
+    },
+    {
+      "path": "openspec/changes/0016-prompt-compiler/proposal.md",
+      "size": 586,
+      "sha256": "c8b019a8662c0cb9a81c410614bdba3c27f5febc1ccd85ae7e009e03c3714862"
+    },
+    {
+      "path": "openspec/changes/0016-prompt-compiler/specs/prompt/prompt-compiler/spec.md",
+      "size": 497,
+      "sha256": "574a2c314d8478ab0dbdc9c2bfc443cee28a168d142c69f8c069f4c1178161c7"
+    },
+    {
+      "path": "openspec/changes/0016-prompt-compiler/tasks.md",
+      "size": 546,
+      "sha256": "e2aba40a11d8cef840da502c9e6c7e7f8713467fd02408a8004fab9f68df71f8"
+    },
+    {
+      "path": "openspec/changes/0016-prompt-compiler/verification.md",
+      "size": 295,
+      "sha256": "87b372001852d727e790ff01ad3140c0d03b6d581f36f5c80b6769842a79d5b3"
+    },
+    {
+      "path": "openspec/changes/0017-execution-planner/change.yaml",
+      "size": 354,
+      "sha256": "4a357ee671ae58a9413baab25ee438f6f3feb77269a958f3b23b00a798286f92"
+    },
+    {
+      "path": "openspec/changes/0017-execution-planner/design.md",
+      "size": 884,
+      "sha256": "a93c39d80ec35c8b16d6c94d7711bb78adcdde45c6257877262a558e8fcd8c4f"
+    },
+    {
+      "path": "openspec/changes/0017-execution-planner/proposal.md",
+      "size": 592,
+      "sha256": "17ddc9379aa1e8f76cdbfbe22e5e8a706785073a2e32035ff82ef7db6cf41449"
+    },
+    {
+      "path": "openspec/changes/0017-execution-planner/specs/planner/execution-planner/spec.md",
+      "size": 502,
+      "sha256": "a0c0d2a4aa6445c49490de464c8ec34e364fad093f17ee4c617760d87e1e1e9b"
+    },
+    {
+      "path": "openspec/changes/0017-execution-planner/tasks.md",
+      "size": 548,
+      "sha256": "78a90686f71e520b4e558f93a7d581a03f59988389d0a80e910b41114878f366"
+    },
+    {
+      "path": "openspec/changes/0017-execution-planner/verification.md",
+      "size": 297,
+      "sha256": "0ba2db1ee0d9c74329a051b13160605232252dcd742e828a8e51dd23a6c00b09"
+    },
+    {
+      "path": "openspec/changes/0018-plugin-sdk/change.yaml",
+      "size": 349,
+      "sha256": "8ca5ef89dac117646312eab3b73218d960f100d8a6b7e3760ffade6129abb874"
+    },
+    {
+      "path": "openspec/changes/0018-plugin-sdk/design.md",
+      "size": 870,
+      "sha256": "2749ee767a366123d4fb88b6c2130cb9a24b889b9d8ad74cc03ac2098c94ff9e"
+    },
+    {
+      "path": "openspec/changes/0018-plugin-sdk/proposal.md",
+      "size": 580,
+      "sha256": "b4130ce3efd0d8582c91fb21ef136d1be802ff90adb95b474b0da83876d97947"
+    },
+    {
+      "path": "openspec/changes/0018-plugin-sdk/specs/plugins/plugin-sdk/spec.md",
+      "size": 488,
+      "sha256": "362391a05858a9ad5f0cf06df9216e4b4d0e9d5acf7895c4cbe999d59ddcb45b"
+    },
+    {
+      "path": "openspec/changes/0018-plugin-sdk/tasks.md",
+      "size": 541,
+      "sha256": "c8a679b68ed2ee3c519b868437028f89512c9468b4e1db4ec955675e6416cf51"
+    },
+    {
+      "path": "openspec/changes/0018-plugin-sdk/verification.md",
+      "size": 290,
+      "sha256": "d543bf6091b5549498e6542500f40e199fc130b1fce26dbe9ea4f49668983253"
+    },
+    {
+      "path": "openspec/changes/0019-provider-contract/change.yaml",
+      "size": 349,
+      "sha256": "54f8494b18ef5a3dcea99619bcd24960c99e61d23aa4ebdb6dada1a0e4fc96ca"
+    },
+    {
+      "path": "openspec/changes/0019-provider-contract/design.md",
+      "size": 907,
+      "sha256": "b989b770511e0cae3a370d98f3b6f2033456a0087c4f9addcb6cc0c68b2eaec2"
+    },
+    {
+      "path": "openspec/changes/0019-provider-contract/proposal.md",
+      "size": 610,
+      "sha256": "340cb5e4843ddd1f3835fa12dbd5c6e09dfa021dead16eb9e5c626a663380555"
+    },
+    {
+      "path": "openspec/changes/0019-provider-contract/specs/plugins/provider-contract/spec.md",
+      "size": 525,
+      "sha256": "80b943c33f9b329d6cd05fcae0496110aec7540320542617a0feb1032b4e250a"
+    },
+    {
+      "path": "openspec/changes/0019-provider-contract/tasks.md",
+      "size": 571,
+      "sha256": "fb7578b71821e5f07a79695a799ac55561d860151d8a9830b62f64ac1613ed66"
+    },
+    {
+      "path": "openspec/changes/0019-provider-contract/verification.md",
+      "size": 320,
+      "sha256": "e4c75bf998dba83f699d899c0c09d94c160194942771487b60654eab38754e54"
+    },
+    {
+      "path": "openspec/changes/0020-agent-runtime/change.yaml",
+      "size": 352,
+      "sha256": "eff2c5009a864f3bdbf826746bfbdb8fa912e801c0a10101b3048dc7d88d28c4"
+    },
+    {
+      "path": "openspec/changes/0020-agent-runtime/design.md",
+      "size": 878,
+      "sha256": "be320338060b408baf895cb7e9712d73f246610b70d9e5fac62939fe914adcd6"
+    },
+    {
+      "path": "openspec/changes/0020-agent-runtime/proposal.md",
+      "size": 588,
+      "sha256": "bb38e73205eadfd164f1d959e17d3ffcc768b020c3775e132d192ddcfc4f50c4"
+    },
+    {
+      "path": "openspec/changes/0020-agent-runtime/specs/execution/agent-runtime/spec.md",
+      "size": 496,
+      "sha256": "fa2d78828cd1d39e009ed14433d88b2c9ef5c55de7d35248448d056c3ff94ba5"
+    },
+    {
+      "path": "openspec/changes/0020-agent-runtime/tasks.md",
+      "size": 544,
+      "sha256": "7bac25b12e1e436f111dff2ed70b71497cd8469c3b6fee753aec7090793382e4"
+    },
+    {
+      "path": "openspec/changes/0020-agent-runtime/verification.md",
+      "size": 293,
+      "sha256": "88e6d84b2b96d591a1828a67c2cc8352e0da9b30094b2fed9829df0715d3a191"
+    },
+    {
+      "path": "openspec/changes/0021-review-engine/change.yaml",
+      "size": 348,
+      "sha256": "42f1daf8c2a5491f27ca3d0865f4c2721e196d9bd97fe2931653d63682b0d7b7"
+    },
+    {
+      "path": "openspec/changes/0021-review-engine/design.md",
+      "size": 875,
+      "sha256": "83e031ef9bf07152f9fab21855e93cb34bb0f26dbd6041dd1a5824b5c1760472"
+    },
+    {
+      "path": "openspec/changes/0021-review-engine/proposal.md",
+      "size": 581,
+      "sha256": "df33e3d517509804194f0dc12368528c21cd38dbcacc7b8314b54e0fa6b8a86b"
+    },
+    {
+      "path": "openspec/changes/0021-review-engine/specs/review/review-engine/spec.md",
+      "size": 493,
+      "sha256": "6f9f847eb1bbe980357a0fb0b60ca79627bdc2b24098f2b5d92fdc9bca0e0971"
+    },
+    {
+      "path": "openspec/changes/0021-review-engine/tasks.md",
+      "size": 544,
+      "sha256": "e181203c2fc507701b37c36d59d2124f5ee5e042ccba1af55eb09d126fc3c103"
+    },
+    {
+      "path": "openspec/changes/0021-review-engine/verification.md",
+      "size": 293,
+      "sha256": "5c9102901ed00b75eb2ea7569b8be3fd3930dd3adfb98651e8b0ee2607a14e1f"
+    },
+    {
+      "path": "openspec/changes/0022-cli-foundation/change.yaml",
+      "size": 349,
+      "sha256": "58cb1918d0814da71b05a48abf4cb3f7995d4d27b4738d69a01b0bf96b1f0134"
+    },
+    {
+      "path": "openspec/changes/0022-cli-foundation/design.md",
+      "size": 874,
+      "sha256": "0558510fb67c044e41a194188999c67b9951935cb8854d9893171fd995de9c09"
+    },
+    {
+      "path": "openspec/changes/0022-cli-foundation/proposal.md",
+      "size": 580,
+      "sha256": "e670273b87da98d17fa6d3dd243b421606fc85ee1495e8b93d3bea437687a36c"
+    },
+    {
+      "path": "openspec/changes/0022-cli-foundation/specs/cli/cli-foundation/spec.md",
+      "size": 492,
+      "sha256": "978b94d102ea86d75ef54c802deee72e0c9702c34e0d3c187980474df18d6571"
+    },
+    {
+      "path": "openspec/changes/0022-cli-foundation/tasks.md",
+      "size": 545,
+      "sha256": "eef1e2ce610cc42a76a87ef9c21e7b7653c5e345f0664857a3c7143cbb8704b3"
+    },
+    {
+      "path": "openspec/changes/0022-cli-foundation/verification.md",
+      "size": 294,
+      "sha256": "824e38f44abf76d278f52986cdd2fc903b350d52cf2dbed2a58be650aa5f88b0"
+    },
+    {
+      "path": "openspec/changes/0023-cli-init-validate-doctor/change.yaml",
+      "size": 360,
+      "sha256": "713a4d7d2c4cf1f932926585cdd0b68e64216ddea8f845e9b8393a22d948bf2b"
+    },
+    {
+      "path": "openspec/changes/0023-cli-init-validate-doctor/design.md",
+      "size": 917,
+      "sha256": "b8c658c091a1d07d11eb030e29605fced014a4e17df2b7c6e73f6d4cfd9f43ad"
+    },
+    {
+      "path": "openspec/changes/0023-cli-init-validate-doctor/proposal.md",
+      "size": 624,
+      "sha256": "602d3656e4463a9d2f0f557998b17a23196f7156f3b683717ed16acc2d6067ed"
+    },
+    {
+      "path": "openspec/changes/0023-cli-init-validate-doctor/specs/cli/init-command/spec.md",
+      "size": 535,
+      "sha256": "6b3f267cce8c6866094028ac85f7d52b884ba55f928c09c046019bbd9906a806"
+    },
+    {
+      "path": "openspec/changes/0023-cli-init-validate-doctor/tasks.md",
+      "size": 548,
+      "sha256": "4def286cf60af6a64d2a9c3007ade3b6579c387243a2450f6507b59fe9c1b301"
+    },
+    {
+      "path": "openspec/changes/0023-cli-init-validate-doctor/verification.md",
+      "size": 297,
+      "sha256": "2841c054fd171958d60cc26a1a3dcc6ffd74ffaaa0225166120e3322e800e38a"
+    },
+    {
+      "path": "openspec/changes/0024-query-command/change.yaml",
+      "size": 359,
+      "sha256": "7a43532402d98b08fc00186580de3801618be6d594f78583291fa44e3f90609e"
+    },
+    {
+      "path": "openspec/changes/0024-query-command/design.md",
+      "size": 883,
+      "sha256": "5eef2335cabff49924753dc06629490b46acea1301a2856929c39092ea766e79"
+    },
+    {
+      "path": "openspec/changes/0024-query-command/proposal.md",
+      "size": 600,
+      "sha256": "caae8a9c446ce7a41837f00badf16edc7e011ae1d3d1a75237068be46a9db777"
+    },
+    {
+      "path": "openspec/changes/0024-query-command/specs/cli/query-command/spec.md",
+      "size": 501,
+      "sha256": "5abad15621f3ef43270fcf0700b7d5b51b693cb3d92e43ead91b7668b47b03e5"
+    },
+    {
+      "path": "openspec/changes/0024-query-command/tasks.md",
+      "size": 555,
+      "sha256": "53c4b8922d2482652b61f6cccdc9d9608935268c2bc1ca815fb784b86e407598"
+    },
+    {
+      "path": "openspec/changes/0024-query-command/verification.md",
+      "size": 304,
+      "sha256": "daa68e45fdf732eeacbaa738a9d2361969b2f6d719eb31d62bffdfbf5d72cd80"
+    },
+    {
+      "path": "openspec/changes/0025-local-daemon/change.yaml",
+      "size": 347,
+      "sha256": "242fb747a52546bf3893bb1f52ec420d217e5a0d8a1b7e10a65b84c226ef3b89"
+    },
+    {
+      "path": "openspec/changes/0025-local-daemon/design.md",
+      "size": 873,
+      "sha256": "46036bd2598add253b49eb0324eeb273df902b500959672cafc49017f6e8fc4d"
+    },
+    {
+      "path": "openspec/changes/0025-local-daemon/proposal.md",
+      "size": 579,
+      "sha256": "63f73df072e297aee326d9200873181fc5d579ff54fdeae1a8b6abf0725f9e2d"
+    },
+    {
+      "path": "openspec/changes/0025-local-daemon/specs/daemon/local-daemon/spec.md",
+      "size": 491,
+      "sha256": "a6754cde18de4c7e720c508c88986e3f7088b5866db5e7b898994f0ec7374835"
+    },
+    {
+      "path": "openspec/changes/0025-local-daemon/tasks.md",
+      "size": 543,
+      "sha256": "c78fc1df2670722591622e74bb19f5927eee858490f9f4bf7ad0abbe4990386a"
+    },
+    {
+      "path": "openspec/changes/0025-local-daemon/verification.md",
+      "size": 292,
+      "sha256": "11cc90508269ffafed97c919e166fcfa7e3bcb6cffbe5de7ea7215182bfea1dd"
+    },
+    {
+      "path": "openspec/changes/0026-dashboard/change.yaml",
+      "size": 343,
+      "sha256": "1a9bac0523da47039cb6b20f9f1b028fda3babe6d580cf680ddc9df069845f1d"
+    },
+    {
+      "path": "openspec/changes/0026-dashboard/design.md",
+      "size": 881,
+      "sha256": "7a347093b5aec64d446f595719ba10fa60abd9bc2370f1f7d1cf3735f333246e"
+    },
+    {
+      "path": "openspec/changes/0026-dashboard/proposal.md",
+      "size": 586,
+      "sha256": "36fdc4d34cbc5e381172fd8fee74e827a158be5b5b5b7abe78c88768b433474d"
+    },
+    {
+      "path": "openspec/changes/0026-dashboard/specs/dashboard/dashboard/spec.md",
+      "size": 499,
+      "sha256": "ce71610a8529ef45b590e0c5c57e3a6322eeebe09893f2bb01ae8bd958fc240e"
+    },
+    {
+      "path": "openspec/changes/0026-dashboard/tasks.md",
+      "size": 551,
+      "sha256": "3323154af9f03e113ef93a29381f5ec5b8b31c2355762601b50c1168d646ce94"
+    },
+    {
+      "path": "openspec/changes/0026-dashboard/verification.md",
+      "size": 300,
+      "sha256": "0fee984bf6b481d443ca1f67c386732aa0d2d2786967aacaa0f78869baab9932"
+    },
+    {
+      "path": "openspec/changes/0027-metrics/change.yaml",
+      "size": 338,
+      "sha256": "ff9f15dc4b5c0a3f0f988e6689e355edf280cd7aa40b8184166e54a4f5169deb"
+    },
+    {
+      "path": "openspec/changes/0027-metrics/design.md",
+      "size": 888,
+      "sha256": "56b6bf08c5f21b4fd98d11f9b39c4bb74df6740d0b501037d98c781718025d11"
+    },
+    {
+      "path": "openspec/changes/0027-metrics/proposal.md",
+      "size": 590,
+      "sha256": "cc9b2cf5a70d2dc8514910c8235a8e42d04ad571fe97ad1fb613f8ed87fa76ee"
+    },
+    {
+      "path": "openspec/changes/0027-metrics/specs/metrics/engineering-metrics/spec.md",
+      "size": 506,
+      "sha256": "ad8a523b54689c431345257d7f9178bf20d9f71d9bcc784fb084740a875cf70c"
+    },
+    {
+      "path": "openspec/changes/0027-metrics/tasks.md",
+      "size": 550,
+      "sha256": "67da1d91cc8904de10a2c3d43928512a5bf932d73375c891705eca594d27be2d"
+    },
+    {
+      "path": "openspec/changes/0027-metrics/verification.md",
+      "size": 299,
+      "sha256": "eaad6b4747e524636ecf52888d85415813e8f08e68646be9e9859e71092aac7f"
+    },
+    {
+      "path": "openspec/changes/0028-security-hardening/change.yaml",
+      "size": 347,
+      "sha256": "935b300bdaebb6546be49445026c5ae9790cf48df61792ad486041e92b432092"
+    },
+    {
+      "path": "openspec/changes/0028-security-hardening/design.md",
+      "size": 889,
+      "sha256": "a0e5143252d237eb9c0cf4fab426d55503b22147198a9c541d8decd6e6c98025"
+    },
+    {
+      "path": "openspec/changes/0028-security-hardening/proposal.md",
+      "size": 589,
+      "sha256": "211a45a24c3f59abf3f3ede5d8bafbb79bf3c622048adb32b0fbeb5d246a53e8"
+    },
+    {
+      "path": "openspec/changes/0028-security-hardening/specs/security/security-model/spec.md",
+      "size": 507,
+      "sha256": "76806e023f36e16aa51efe653a5a46d6660ff8e9e268572f2f66ae50f227bff6"
+    },
+    {
+      "path": "openspec/changes/0028-security-hardening/tasks.md",
+      "size": 555,
+      "sha256": "11b5a6337d4a15b38ab2648ed5c4a98f9d0c6d2f8e465c10b29a504f8d4ad1c9"
+    },
+    {
+      "path": "openspec/changes/0028-security-hardening/verification.md",
+      "size": 304,
+      "sha256": "7bbfa9292ec3996b772ab91ce65b649a07a3a0fede3025fafd16e64ead6bb6bc"
+    },
+    {
+      "path": "openspec/changes/0029-release-engine/change.yaml",
+      "size": 354,
+      "sha256": "179ba8fa57d8fc640c74a0ffd829bd7f3075a3af7145100129f84113454ee873"
+    },
+    {
+      "path": "openspec/changes/0029-release-engine/design.md",
+      "size": 878,
+      "sha256": "ef482a10584395c825bda326c3a0a8aee9d617d9d7a9753203141ccf7160d69d"
+    },
+    {
+      "path": "openspec/changes/0029-release-engine/proposal.md",
+      "size": 589,
+      "sha256": "d20cc21301fe2cdf15700084e86af84501589e42d3fe7f6803689fc3435de9bd"
+    },
+    {
+      "path": "openspec/changes/0029-release-engine/specs/release/release-engine/spec.md",
+      "size": 496,
+      "sha256": "12309091805627ff50bf1f588f94b765ff4ebce4e6fae3caa2ea95b9c1fac8a3"
+    },
+    {
+      "path": "openspec/changes/0029-release-engine/tasks.md",
+      "size": 545,
+      "sha256": "67ed752dfaf9a60b0b2f3b4d252fcacd3c49c5fa9ccb8ae590acfa02b7eb1f18"
+    },
+    {
+      "path": "openspec/changes/0029-release-engine/verification.md",
+      "size": 294,
+      "sha256": "05df6fb2709628a1886b56d8d0cb43f29fbe11348bb2c71ae29fcacec2e3a19a"
+    },
+    {
+      "path": "openspec/changes/0030-self-hosting/change.yaml",
+      "size": 348,
+      "sha256": "16195c335c1e26a73e02c0fffda02e430a767db9c071b518dba2d18692c3be4d"
+    },
+    {
+      "path": "openspec/changes/0030-self-hosting/design.md",
+      "size": 890,
+      "sha256": "a0b7ca8867af4131b8f1275de527baf3dd42b1c10c335dba5d921a060c86e4e5"
+    },
+    {
+      "path": "openspec/changes/0030-self-hosting/proposal.md",
+      "size": 597,
+      "sha256": "41f94a2071ee576dbb52e15aaf78dd2a4b4ccb92262a19a20d54cb9804132845"
+    },
+    {
+      "path": "openspec/changes/0030-self-hosting/specs/dogfood/self-hosting/spec.md",
+      "size": 508,
+      "sha256": "5082d0d53e82665b72d86ca85ac96560d37db680e6bd28887019bb475337efc4"
+    },
+    {
+      "path": "openspec/changes/0030-self-hosting/tasks.md",
+      "size": 559,
+      "sha256": "ef09144d48ff3ba27d9e5987b394e729446d78095bad7104d7ad289d6a52d5c1"
+    },
+    {
+      "path": "openspec/changes/0030-self-hosting/verification.md",
+      "size": 308,
+      "sha256": "acdca4149f18770d00e0224939148a1bff047d2d0aea6710f68684f7ad43757b"
+    },
+    {
+      "path": "openspec/changes/0031-conflict-impact-atlas-bootstrap/change.yaml",
+      "size": 365,
+      "sha256": "45ba70f2eca3638032a9a47705a8b8fb9ec3c265b44c15e2ad1fbede3eec4874"
+    },
+    {
+      "path": "openspec/changes/0031-conflict-impact-atlas-bootstrap/design.md",
+      "size": 893,
+      "sha256": "198cb53da59cfdbe792b20557981ea3435d6c17747f36f93ef3716e40f17d3cb"
+    },
+    {
+      "path": "openspec/changes/0031-conflict-impact-atlas-bootstrap/proposal.md",
+      "size": 598,
+      "sha256": "445aa05f68ca981a39eae4ef2030852fc41bffce5ab20b0a09aa4f8d7efc59ce"
+    },
+    {
+      "path": "openspec/changes/0031-conflict-impact-atlas-bootstrap/specs/dogfood/conflict-impact-atlas/spec.md",
+      "size": 511,
+      "sha256": "9424b373e3e4d135549c81281d693561d31da1215f866bf2d83ecbeb163bebe8"
+    },
+    {
+      "path": "openspec/changes/0031-conflict-impact-atlas-bootstrap/tasks.md",
+      "size": 553,
+      "sha256": "9751df2a811291092fee939a9211c453836f04ce10790e36661e8f594a4ee3f3"
+    },
+    {
+      "path": "openspec/changes/0031-conflict-impact-atlas-bootstrap/verification.md",
+      "size": 302,
+      "sha256": "0843ca8ae7787f63ed3a422e8d6710d7c85f9eb5e0a30d5ae2793c9cd457a423"
+    },
+    {
+      "path": "openspec/constitution.md",
+      "size": 1741,
+      "sha256": "7534a34ed1b31aa530bdbaaf0f2abfb1ad0c66f0f760bd0ac98a35ee2def677b"
+    },
+    {
+      "path": "openspec/implementation-roadmap.md",
+      "size": 2074,
+      "sha256": "53f8847caccb663dc92f8e49aaafde00d3f2c0dd7a46bae278ab0680eccd6c07"
+    },
+    {
+      "path": "openspec/project.md",
+      "size": 1222,
+      "sha256": "0254dc48804adddcab3b158ab794157b22d9a2b9b78485fccb1e290dbdbd4083"
+    },
+    {
+      "path": "openspec/specs/cli/cli-foundation/spec.md",
+      "size": 1583,
+      "sha256": "634c5ed04379aa4e1e74ba0e32710edfffdfd9cbbea7665724eb69881c535965"
+    },
+    {
+      "path": "openspec/specs/cli/doctor-command/spec.md",
+      "size": 1611,
+      "sha256": "a765cb4911547462b7ce7d58b4aec636e5d792e2160f94ec6c009afeb48336b3"
+    },
+    {
+      "path": "openspec/specs/cli/init-command/spec.md",
+      "size": 1633,
+      "sha256": "64534ec5ae9e558e3abf3cf172cc26ecbc3f0fab2f77063369e2f62c8fd897eb"
+    },
+    {
+      "path": "openspec/specs/cli/query-command/spec.md",
+      "size": 1619,
+      "sha256": "c8a023c84cac9fef2f81652eb3c03da51910aa7c168eefe88f0b1056e5d1455e"
+    },
+    {
+      "path": "openspec/specs/cli/validate-command/spec.md",
+      "size": 1603,
+      "sha256": "a3bede026f93420201cf18a2e23ec4e3915c336a87d94eebf27029f53274d43e"
+    },
+    {
+      "path": "openspec/specs/context/context-engine/spec.md",
+      "size": 1613,
+      "sha256": "59c7d9d0e82c3541fae90b7f630c127e57c9c17c6316c39a9e804eb72a75f2c9"
+    },
+    {
+      "path": "openspec/specs/daemon/local-daemon/spec.md",
+      "size": 1583,
+      "sha256": "d6ab33a985fff98b6bc86089ab4ab19d0b4f18d61f42686d12fc6228516d21ba"
+    },
+    {
+      "path": "openspec/specs/dashboard/dashboard/spec.md",
+      "size": 1623,
+      "sha256": "e11fa618e5ee8725c5af72ed7657f8a877217c63b7c947322259063483b5ebb0"
+    },
+    {
+      "path": "openspec/specs/dogfood/conflict-impact-atlas/spec.md",
+      "size": 1773,
+      "sha256": "78f351f3c0f28852f67160a7a909cd8d6461bf9db4a4febc84ef4f37b00e8887"
+    },
+    {
+      "path": "openspec/specs/dogfood/self-hosting/spec.md",
+      "size": 1721,
+      "sha256": "782756694aad593af0ceb338ea360eb1ccb626b84094df7aba2ced7047fe635e"
+    },
+    {
+      "path": "openspec/specs/domain/core-primitives/spec.md",
+      "size": 1919,
+      "sha256": "425e053e9dab9878331ab977f7aab7f4b6bd69d56dbfc9630ab995ae65bb0226"
+    },
+    {
+      "path": "openspec/specs/domain/specification-aggregate/spec.md",
+      "size": 1673,
+      "sha256": "411ce16e4d13e3800b8b1ca82a65d41360fcf16e87ff9ec1e40b6468fdd05ccc"
+    },
+    {
+      "path": "openspec/specs/domain/task-aggregate/spec.md",
+      "size": 1645,
+      "sha256": "0920b5c7c2793fac7d4c7f2509d0d0137e64ae37228a07b797008b20bb53cf5a"
+    },
+    {
+      "path": "openspec/specs/execution/agent-runtime/spec.md",
+      "size": 1575,
+      "sha256": "220e766589bda6e0bc2644c80a9f5bc044a5cbb3e55bbf418697ac11948ca46c"
+    },
+    {
+      "path": "openspec/specs/foundation/package-boundaries/spec.md",
+      "size": 1673,
+      "sha256": "50f79dcceb06dfbf59d3e93bf11ecbd6146b2ec37242c7765aa93f00b3a22d20"
+    },
+    {
+      "path": "openspec/specs/foundation/workspace-bootstrap/spec.md",
+      "size": 1783,
+      "sha256": "6dcc893a01fb50e07c783a5b586db02237e3d9e1c6386c6722b6af0d9bf3a9e5"
+    },
+    {
+      "path": "openspec/specs/governance/openspec-engine/spec.md",
+      "size": 1665,
+      "sha256": "5112a799fc54bb361dad1cbe02e203b45f1265c7949613972f7cf63b9c90562b"
+    },
+    {
+      "path": "openspec/specs/governance/policy-engine/spec.md",
+      "size": 1633,
+      "sha256": "c974841cf46d262e5f889627db81f12246a011b3d9991facc68378d8839ee4a6"
+    },
+    {
+      "path": "openspec/specs/knowledge/knowledge-model/spec.md",
+      "size": 1625,
+      "sha256": "315d2bf3009d07ed1b3daf38955e50713af82cad5da8f5389180fc634b9b3e05"
+    },
+    {
+      "path": "openspec/specs/metrics/engineering-metrics/spec.md",
+      "size": 1613,
+      "sha256": "df9c168e38ab025911f6ae6a20f33ad20041e477524896acacf1d1d4e1769d42"
+    },
+    {
+      "path": "openspec/specs/planner/execution-planner/spec.md",
+      "size": 1631,
+      "sha256": "9b5e42e7b36f91dbe25868166e3c50a8824123a1b11ccbeea81762d629089d04"
+    },
+    {
+      "path": "openspec/specs/plugins/plugin-sdk/spec.md",
+      "size": 1617,
+      "sha256": "8b20493383f5d6feadc63f4cd905cdd6a1e2bc00e2c10d3be6f663ce68342708"
+    },
+    {
+      "path": "openspec/specs/plugins/provider-contract/spec.md",
+      "size": 1603,
+      "sha256": "33097ea749bc5157ed3de8c68d417afdb9e8a27bd2d63d7ee0ec987490f06866"
+    },
+    {
+      "path": "openspec/specs/prompt/prompt-compiler/spec.md",
+      "size": 1623,
+      "sha256": "c2c29ee9a699122d258e414509a86fd370109b060a683e4a41ce0d9a7d5003e5"
+    },
+    {
+      "path": "openspec/specs/release/release-engine/spec.md",
+      "size": 1643,
+      "sha256": "1ce9e3f0d73166da8c626a929d3cb42de5381b806451d1307c1fb7815e004575"
+    },
+    {
+      "path": "openspec/specs/repository/impact-analysis/spec.md",
+      "size": 1607,
+      "sha256": "9e4aa74b44e2c35d7420a7c206d6cbcbca515d6b5aabad2e8da048dc62f2832e"
+    },
+    {
+      "path": "openspec/specs/repository/repository-graph/spec.md",
+      "size": 1647,
+      "sha256": "8479578d859f50fd66aa79aaa5024d19c7822d12cf2c811268eaa94958e9c24d"
+    },
+    {
+      "path": "openspec/specs/review/review-engine/spec.md",
+      "size": 1597,
+      "sha256": "05f26a7c73b6e31165476e04d72348867fcb36d8229bfac7862d4a875bf6cf58"
+    },
+    {
+      "path": "openspec/specs/runtime/event-persistence/spec.md",
+      "size": 1651,
+      "sha256": "1f41a1e1ff42832fce922b4678cd18d568fe5d2717a02bd4906299df025c06d9"
+    },
+    {
+      "path": "openspec/specs/runtime/event-runtime/spec.md",
+      "size": 1621,
+      "sha256": "d84dc23acc6f649361b21e6ac604643973a32e148b41ad4e76c74f8fe7d39372"
+    },
+    {
+      "path": "openspec/specs/runtime/outbox/spec.md",
+      "size": 1607,
+      "sha256": "07b618678b546abae01f7b537f14c81268385960c71ec629dcc587ba90dbe010"
+    },
+    {
+      "path": "openspec/specs/runtime/snapshots/spec.md",
+      "size": 1627,
+      "sha256": "bf443002beff0f73957be4e9b965ba8f0cc7359255ce4de840ff6e4e2654807f"
+    },
+    {
+      "path": "openspec/specs/security/security-model/spec.md",
+      "size": 1563,
+      "sha256": "b07fa7abb408368f613666e0f2d6aa08c1f7d9deb59bc68fc9ed8c6d2535c845"
+    },
+    {
+      "path": "openspec/templates/change/design.md",
+      "size": 102,
+      "sha256": "1d211ea05abd19ff9c83c7a5e9b2804fd7d53fde115f6b3c75c02a7062d6abe1"
+    },
+    {
+      "path": "openspec/templates/change/proposal.md",
+      "size": 113,
+      "sha256": "573759af1a970fabc79175b9835680056e649a40222c81a3309bbc5092cdbdcd"
+    },
+    {
+      "path": "openspec/templates/change/tasks.md",
+      "size": 29,
+      "sha256": "732135df5ba48f1479f4afab28773b61ca8cedbbb48b6133ba2ef9439933e912"
+    },
+    {
+      "path": "openspec/templates/change/verification.md",
+      "size": 84,
+      "sha256": "27ed7e63a16a2457e0044c5b4e1c40810784f136e7b72e0adcfa576dc8a5db65"
+    },
+    {
+      "path": "prompts/00-audit-before-start.md",
+      "size": 641,
+      "sha256": "8db3dc24cbb16e0005937a89545a215c0f2e9cb9f13226596b57036349627acd"
+    },
+    {
+      "path": "prompts/01-start-implementation.md",
+      "size": 1693,
+      "sha256": "cd239c04125b7478abcf0d005c7d2ebd1773283f63a6b856d55beba8a54b5ecd"
+    },
+    {
+      "path": "prompts/02-continue-next-change.md",
+      "size": 795,
+      "sha256": "2b4f7af961df58c44ba1ef2bfed6c47fc59e1c4803cdf75e084d1680c1e0ece0"
+    },
+    {
+      "path": "prompts/03-review-change.md",
+      "size": 408,
+      "sha256": "5943c459687e402a8cc630f36597f3a663ceca24551ffe01c4cf546396f55c48"
+    },
+    {
+      "path": "prompts/04-repair-failed-change.md",
+      "size": 322,
+      "sha256": "b48374243199fe6e5d0450b534f322c5f70f4b6f269ae8d23d308017815aca97"
+    },
+    {
+      "path": "prompts/05-archive-change.md",
+      "size": 328,
+      "sha256": "88f046725ff39da5147430a9114e5fe2c789179d444f8b088a96d73b9f8cf86c"
+    },
+    {
+      "path": "reference/ARCHITECTURE.md",
+      "size": 1220,
+      "sha256": "5f843cc3027e27eecc75a09e0ed2a38d5bae883ddab45f37a8633220ba7d7d45"
+    },
+    {
+      "path": "reference/CODE_STYLE.md",
+      "size": 256,
+      "sha256": "159275b7b25789886b1ad5296a2f8934912d9c31d5836dc2bc9e878156bccc7e"
+    },
+    {
+      "path": "reference/CONTRIBUTING.md",
+      "size": 692,
+      "sha256": "66a784555b44fea3088d6a222ff733cfe7f7850c68489f9d7e087594ebab86d0"
+    },
+    {
+      "path": "reference/DECISION_PROCESS.md",
+      "size": 221,
+      "sha256": "7739c5963194727a880e75298de4f99a7a28117afcb9d9d3b5126c878f0255cc"
+    },
+    {
+      "path": "reference/RELEASE_PROCESS.md",
+      "size": 242,
+      "sha256": "8ce13e4ffff7854e9ce833c0c28061d65aa2263d5074c797d75db77bc209f44c"
+    },
+    {
+      "path": "reference/SECURITY.md",
+      "size": 451,
+      "sha256": "f6fff6deefa032fb6edde8969c7b018b950661a566ddebae0343f7e5a625cd3a"
+    },
+    {
+      "path": "reference/VERSIONING.md",
+      "size": 352,
+      "sha256": "343b6147a082bc7798714a580c776b44661c9543460c00da6d1538736ae0169e"
+    },
+    {
+      "path": "reference/adr/ADR-0001-use-repository-as-project-memory.md",
+      "size": 603,
+      "sha256": "80bf10137401efffe580d5fc1a38dafdaf8a1c748f985f241f1a2805afc49955"
+    },
+    {
+      "path": "reference/adr/ADR-0002-provider-agnostic-core.md",
+      "size": 368,
+      "sha256": "a77d81645dad14a0a0b719c7b08ad89e5b02a8e0751d57da3b6ba245a624cfe2"
+    },
+    {
+      "path": "reference/adr/ADR-0003-conflict-impact-atlas-first-dogfood.md",
+      "size": 588,
+      "sha256": "b55a5d0a57fc9fb237a6dc10c077040c16e791c0ce989eaa90c38611a56b9b94"
+    },
+    {
+      "path": "reference/adr/ADR-0004-technology-stack.md",
+      "size": 531,
+      "sha256": "90da0fd13cdfd77054536985701d18e7b7fde3a1322804621d764d1f8ec44da1"
+    },
+    {
+      "path": "reference/adr/ADR-0005-domain-first.md",
+      "size": 465,
+      "sha256": "74f4ddaf0a491540c1ff7215dc08907bfda79c877b2d969d9b4978e7dd4bf49f"
+    },
+    {
+      "path": "reference/adr/ADR-0006-deterministic-orchestration.md",
+      "size": 527,
+      "sha256": "78686cb1065589321035f17542d6cb13d4977493143029384e1fbfe877767c8c"
+    },
+    {
+      "path": "reference/adr/ADR-0007-ports-and-adapters.md",
+      "size": 441,
+      "sha256": "41d41965e3f024e8808d7b42aca594fec4ed0f117408fcefb5a56df03671b5a8"
+    },
+    {
+      "path": "reference/adr/ADR-0008-public-api-boundaries.md",
+      "size": 431,
+      "sha256": "561160c1df97740f389fe04b0a7ef8b7ba1434631606315769610e46cb98e8e3"
+    },
+    {
+      "path": "reference/adr/ADR-0009-plugin-first-extensibility.md",
+      "size": 433,
+      "sha256": "b4d4cba7a0497fb7c2d6daa23c9d331df3424d1721fd086104412fabe7eb710a"
+    },
+    {
+      "path": "reference/adr/ADR-0010-capability-contracts.md",
+      "size": 422,
+      "sha256": "70b4d3b91e2affcfd018cff590221d4d99386d2271e1210d09827ede55cbcdf6"
+    },
+    {
+      "path": "reference/adr/ADR-0011-event-driven-integration.md",
+      "size": 457,
+      "sha256": "428b7e61cdbe8d71bc7ced97d8020bab96e3d95400fbfd47d6892641a70bf718"
+    },
+    {
+      "path": "reference/adr/ADR-0012-versioning-and-stability.md",
+      "size": 422,
+      "sha256": "092f74580f83e10469b3840a3bed9bdc2dff0c1f3d66ca6e254dd87d83dd30b9"
+    },
+    {
+      "path": "reference/adr/ADR-0013-monorepo-package-boundaries.md",
+      "size": 417,
+      "sha256": "7d3020b26711a0b714efcd158340fff9b39fc9de9a51c91d86dc6c2914ce1db4"
+    },
+    {
+      "path": "reference/adr/ADR-0014-core-runtime-primitives.md",
+      "size": 303,
+      "sha256": "681802d012abcb3aa78fa7521e0261cf3ece71347da9a1986f92ba3f876b9e3e"
+    },
+    {
+      "path": "reference/adr/ADR-0015-rich-aggregate-model.md",
+      "size": 235,
+      "sha256": "170de1736888b096d61fbe68a9a28df5146a8b447daa199a7889f70559920dbd"
+    },
+    {
+      "path": "reference/adr/ADR-0016-in-memory-event-runtime.md",
+      "size": 221,
+      "sha256": "ad64e54061b1e63c01e1989d6d8c138d9d2917c5f82a37e98a924550ebd20dc7"
+    },
+    {
+      "path": "reference/adr/ADR-0017-event-sourced-aggregate-persistence.md",
+      "size": 432,
+      "sha256": "2c346cb6d4a05f75793d3afdd29532f9fc26f262cf321964c23dec8d9b4426c5"
+    },
+    {
+      "path": "reference/adr/ADR-0018-optimistic-concurrency.md",
+      "size": 298,
+      "sha256": "3d25397bd03bab558017393ce273a096ba7d913d7eb0500a5fb74afd245a11f1"
+    },
+    {
+      "path": "reference/adr/ADR-0019-unit-of-work-event-dispatch.md",
+      "size": 305,
+      "sha256": "3a61f6705331c14f68a7a1214cd4e77dd7d7e8a3f5dc848aabf1b2d8bd25775d"
+    },
+    {
+      "path": "reference/adr/ADR-0020-jsonl-filesystem-event-store.md",
+      "size": 322,
+      "sha256": "cd51df596bdd530f34c0a4aaa62cdc0fe0c5059200fb31958c7757f6e69e8699"
+    },
+    {
+      "path": "reference/adr/ADR-0021-event-schema-upcasting.md",
+      "size": 256,
+      "sha256": "391ef83a22bb6af97e12f2e1194b7c99000bae799fb16b4ca35af7898dffb216"
+    },
+    {
+      "path": "reference/adr/ADR-0022-snapshots-are-optional-optimizations.md",
+      "size": 270,
+      "sha256": "e1188e2f77b1ae5be260e828970af1d09850f83c73263055ff59df6c1ce0b28f"
+    },
+    {
+      "path": "reference/adr/ADR-0023-aggregate-snapshot-repositories.md",
+      "size": 408,
+      "sha256": "e024de446026317e576034fb17a668da4d11f98e40981555b0eaa1050d9613f0"
+    },
+    {
+      "path": "reference/adr/ADR-0024-snapshot-fallback-and-repair.md",
+      "size": 438,
+      "sha256": "12614bb606c5a512b49758a9a99456884336669ae355e535d17346836707d7f8"
+    },
+    {
+      "path": "reference/adr/ADR-0025-configurable-snapshot-policy.md",
+      "size": 242,
+      "sha256": "fdb63e8d2ed5a39d73dac0259f8040e624bbb8939cb4c0f6e770a599eb22c9f6"
+    },
+    {
+      "path": "reference/adr/ADR-0026-post-commit-snapshot-coordination.md",
+      "size": 717,
+      "sha256": "db4d691f024c4105c583709e844ea4fd5b56d84a91c9a8a11ed0ef84260366a2"
+    },
+    {
+      "path": "reference/adr/ADR-0027-explicit-partial-commit-outcomes.md",
+      "size": 414,
+      "sha256": "fa3e3279ea9de1f770a00cbe5cc83c73ddd74ac83b20979d0fd62c95a5dc3ef8"
+    },
+    {
+      "path": "reference/adr/ADR-0028-snapshot-policy-outside-domain.md",
+      "size": 295,
+      "sha256": "d0c795ebf01d372b63b67ef7cee71c056dfa86a4cf60aaf8ae3236ed20228be6"
+    },
+    {
+      "path": "reference/agents/qa-reviewer.md",
+      "size": 863,
+      "sha256": "ab2e3482e6c050d9fefbf21f7c2f909b9d654ff531412230cd509a7fd2f99c8b"
+    },
+    {
+      "path": "reference/agents/security-reviewer.md",
+      "size": 937,
+      "sha256": "99dcc769088e8c486eb788a9cf3c1ca5eff01544c7fcdae89d48f3872ae4dab1"
+    },
+    {
+      "path": "reference/agents/software-architect.md",
+      "size": 951,
+      "sha256": "d02533429f4c416710248b669d6aa36ad72c471be66c204c7d3b120b103f5a14"
+    },
+    {
+      "path": "reference/agents/specification-author.md",
+      "size": 912,
+      "sha256": "936391fd85612dbc4232e49354568eccfdd28cf6b61af256212bd911ebd3c32e"
+    },
+    {
+      "path": "reference/agents/typescript-developer.md",
+      "size": 970,
+      "sha256": "c970581455b5a0523c37952fb3d856bd67c01f60f03c52a5659c466597b1f249"
+    },
+    {
+      "path": "reference/anti-patterns/business-logic-in-controller.md",
+      "size": 393,
+      "sha256": "416592461ccf681d462962457742893b75b88ed5bfd055a791fc94c1414e85b5"
+    },
+    {
+      "path": "reference/architecture/allowed-dependencies.yaml",
+      "size": 1061,
+      "sha256": "211b917d5fbcabd8bbf127e91c8194ad7f55eb96a1f2c997c978c14e4cfc13db"
+    },
+    {
+      "path": "reference/architecture/domain-model.md",
+      "size": 838,
+      "sha256": "592fcfecf3965f758be56da8bcf2f2474c3bee2b876f6be75038a4475e532630"
+    },
+    {
+      "path": "reference/architecture/identifier-conventions.md",
+      "size": 386,
+      "sha256": "a1679b4a4b0cb5872dd903fdf18a596474291b3014a05e8261f6e9e19035b87c"
+    },
+    {
+      "path": "reference/architecture/package-dependency-rules.json",
+      "size": 1271,
+      "sha256": "c19d58ac22ccfe3759c4ce186baf962e7c344b04f5bcd9810eb01cf56429a72e"
+    },
+    {
+      "path": "reference/architecture/platform-planes.md",
+      "size": 357,
+      "sha256": "73803c6af69c45b502c1cd2148478adba0ceabb63dee23629bab6a0f200bc7c8"
+    },
+    {
+      "path": "reference/architecture/repository-structure.md",
+      "size": 450,
+      "sha256": "3c7e7672f77544092fa7b13323206b6f74b39aba4d1b3a7ef418b472c171766a"
+    },
+    {
+      "path": "reference/architecture/state-machines.md",
+      "size": 489,
+      "sha256": "be53552f9573259573b3fe72e110e22334362971a5f6e6f8dd547d09e5629649"
+    },
+    {
+      "path": "reference/architecture/system-overview.md",
+      "size": 941,
+      "sha256": "814ccd2342574251198c8f08aaa476afef5d79fef1ab26b19ba1d7b8543fcca3"
+    },
+    {
+      "path": "reference/capabilities/create-execution-plan.md",
+      "size": 315,
+      "sha256": "900aa5733a5558a7003873f840d4e4b06fa73c5ea948d67a3b26bbbf9c3c05cb"
+    },
+    {
+      "path": "reference/capabilities/generate-context.md",
+      "size": 321,
+      "sha256": "e02bed2da6fe0c5f703cf9b3ad76911f1f20a1d98fbc5d6f68bb1bfd52d742a1"
+    },
+    {
+      "path": "reference/capabilities/publish-release.md",
+      "size": 312,
+      "sha256": "e6d02b160ee9a33c400c7ebffdf1a333eea72b1abb9d0b931e34a192546810ce"
+    },
+    {
+      "path": "reference/capabilities/run-review.md",
+      "size": 324,
+      "sha256": "9ef8925aa581c7cdc5947fc20f89c6d82588c2528694e1c4eb201fcd278bd7cf"
+    },
+    {
+      "path": "reference/capabilities/validate-specification.md",
+      "size": 337,
+      "sha256": "e6acd92848c5d6a1f94dfe715cfa53f4ad0ff47139cb47775c7865788a2891ed"
+    },
+    {
+      "path": "reference/constitution/core.md",
+      "size": 2347,
+      "sha256": "62fe58e34af494793f64622c6f7ffba80c48912f23fdb9bca22aedb4e9f1f7b5"
+    },
+    {
+      "path": "reference/constitution/manifesto.md",
+      "size": 402,
+      "sha256": "2ddba63453f4f6e0bd3c0a33683000b8f7ca576fdb13e415f7ed66273c934e2f"
+    },
+    {
+      "path": "reference/patterns/ports-and-adapters.md",
+      "size": 218,
+      "sha256": "c5e8f24a7758edefbf7276c1267a3009f92fc74618e28fa52c68cb1f72e6c95b"
+    },
+    {
+      "path": "reference/quality-gates/default.yaml",
+      "size": 992,
+      "sha256": "e692acbe3bf7729a5a1570826d1791de33e6c038c47e2483e8cf3183077592d8"
+    },
+    {
+      "path": "reference/quality-gates/review-checklist.md",
+      "size": 785,
+      "sha256": "d0526d9dabb8d219592b685dd12fbb39749aeba874748a942d6de713e06d9a88"
+    }
+  ]
+}
