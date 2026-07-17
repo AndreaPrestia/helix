@@ -97,7 +97,7 @@ changes:
     dependsOn: ["0023-cli-init-validate-doctor"]
   - id: 0025-local-daemon
     title: "Local daemon"
-    status: proposed
+    status: completed
     dependsOn: ["0024-query-command"]
   - id: 0026-dashboard
     title: "Monitoring dashboard"

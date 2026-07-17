@@ -61,6 +61,19 @@ importers:
         specifier: ^8.3.5
         version: 8.5.1(postcss@8.5.19)(typescript@5.9.3)(yaml@2.9.0)
 
+  apps/daemon:
+    dependencies:
+      '@helix/core':
+        specifier: workspace:*
+        version: link:../../packages/core
+    devDependencies:
+      '@types/node':
+        specifier: ^22.10.5
+        version: 22.20.1
+      tsup:
+        specifier: ^8.3.5
+        version: 8.5.1(postcss@8.5.19)(typescript@5.9.3)(yaml@2.9.0)
+
   packages/context:
     dependencies:
       '@helix/core':
