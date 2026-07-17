@@ -13,7 +13,7 @@ changes:
     dependsOn: ["0002-package-boundaries"]
   - id: 0004-specification-aggregate
     title: "Specification aggregate"
-    status: proposed
+    status: completed
     dependsOn: ["0003-core-primitives"]
   - id: 0005-task-aggregate
     title: "Task aggregate"
