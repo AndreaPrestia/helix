@@ -121,5 +121,5 @@ changes:
     dependsOn: ["0029-release-engine"]
   - id: 0031-conflict-impact-atlas-bootstrap
     title: "First external dogfood"
-    status: proposed
+    status: completed
     dependsOn: ["0030-self-hosting"]
