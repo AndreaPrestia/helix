@@ -69,7 +69,7 @@ changes:
     dependsOn: ["0016-prompt-compiler"]
   - id: 0018-plugin-sdk
     title: "Plugin SDK"
-    status: proposed
+    status: completed
     dependsOn: ["0017-execution-planner"]
   - id: 0019-provider-contract
     title: "Provider contract and reference provider"
