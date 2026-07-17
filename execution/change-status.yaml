@@ -109,7 +109,7 @@ changes:
     dependsOn: ["0026-dashboard"]
   - id: 0028-security-hardening
     title: "Security model hardening"
-    status: proposed
+    status: completed
     dependsOn: ["0027-metrics"]
   - id: 0029-release-engine
     title: "Release engine"
