@@ -17,7 +17,7 @@ changes:
     dependsOn: ["0003-core-primitives"]
   - id: 0005-task-aggregate
     title: "Task aggregate"
-    status: proposed
+    status: completed
     dependsOn: ["0004-specification-aggregate"]
   - id: 0006-event-runtime
     title: "In-memory event runtime"
