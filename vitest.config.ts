@@ -1,3 +1,4 @@
+import { fileURLToPath } from 'node:url';
 import { defineConfig } from 'vitest/config';
 
 export default defineConfig({
@@ -5,5 +6,10 @@ export default defineConfig({
     include: ['tests/**/*.test.ts', 'packages/**/src/**/*.test.ts'],
     environment: 'node',
     globals: false,
+  },
+  resolve: {
+    alias: {
+      '@helix/core': fileURLToPath(new URL('./packages/core/src/index.ts', import.meta.url)),
+    },
   },
 });
