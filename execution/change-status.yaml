@@ -25,7 +25,7 @@ changes:
     dependsOn: ["0005-task-aggregate"]
   - id: 0007-event-persistence
     title: "Durable event persistence"
-    status: proposed
+    status: completed
     dependsOn: ["0006-event-runtime"]
   - id: 0008-snapshot-runtime
     title: "Snapshot runtime"
