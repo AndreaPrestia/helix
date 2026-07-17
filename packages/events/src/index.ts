@@ -26,3 +26,17 @@ export {
 } from './store/store-errors.js';
 export { InMemoryEventStore } from './store/in-memory-event-store.js';
 export { JsonlEventStore } from './store/jsonl-event-store.js';
+
+export {
+  type AggregateSnapshot,
+  type SnapshotStore,
+  SnapshotStoreError,
+} from './snapshot/snapshot-store.js';
+export { type SnapshotPolicy, noSnapshotPolicy, shouldWriteSnapshot } from './snapshot/policy.js';
+export { InMemorySnapshotStore } from './snapshot/in-memory-snapshot-store.js';
+export {
+  SnapshotRepository,
+  type AggregateCodec,
+  type LoadResult,
+  type FallbackReason,
+} from './snapshot/snapshot-repository.js';
